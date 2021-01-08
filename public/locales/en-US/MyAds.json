@@ -1,0 +1,147 @@
+{
+    "MyAdds":{
+        "title": "My Advertises",
+        "create": "Create New Advertise",
+        "name": "My all advertises",
+        "columnNames": {
+            "0":"No",
+            "1": "Title",
+            "2": "Description",
+            "3": "Type",
+            "4": "Sub Type",
+            "5": "Packages",
+            "6": "Actions",
+            "7": "Created At",
+            "8": "Updated At"
+        }
+    },
+    "CreateAdd": {
+        "title": "Create Your New Advertise",
+        "button1": "Continue",
+        "button2": "Back",
+        "button3": "Confirm & Continue",
+        "button4": "Submit",
+        "NB": "NB: Please fill up all fields",
+        "Step1": {
+            "firstSection": {
+                "title": "Type and Sub type",
+                "typeOptions": {
+                    "0": "Select advertise type",
+                    "1": "TV",
+                    "2": "INTERNET"
+                },
+                "subtypeOptions":{
+                    "0": "Select subtype for ",
+                    "TV": {
+                        "0":"Generalist",
+                        "1":"News",
+                        "2":"Sports",
+                        "3":"Gastronomy",
+                        "4":"Humor",
+                        "5":"Adult"
+                    },
+                    "INTERNET":{
+                        "0": "Web",
+                        "1": "Social Media",
+                        "2": "Mobile app",
+                        "3": "Mailing",
+                        "4": "Connected objects"
+                    }
+                },
+                "others":{
+                    "0": "Or, create type",
+                    "1": "Or, create subtype"
+                }
+            },
+            "secondSection":{
+                "title": "Title and Description",
+                "fields":{
+                    "default": "I will do ",
+                    "0": "Give a title",
+                    "1": "Have any Description?"
+                },
+                "0": "maximum",
+                "1": "minimum"
+            }
+        },
+        "Step2":{
+            "title": "Choose number of packages",
+            "name": "Packages",
+            "packageTypes": {
+                "0": "BASIC",
+                "1": "STANDARD",
+                "2": "PREMIUM"
+            },
+            "SinglePackageItem":{
+                "0": "Name of your package",
+                "1": "Describe the details of your package",
+                "2": "What I will do?/Tasks",
+                "3": "Your ensured tasks :",
+                "4": "Delivery Time",
+                "5": "Duration",
+                "6": "Select a type",
+                "durationTypes": {
+                    "0": "minutes", 
+                    "1": "hours", 
+                    "2": "days", 
+                    "3": "months", 
+                    "4": "years"
+                },
+                "7": "Give a price($)"
+            }
+        },
+        "Step3": {
+            "00": "maximum",
+            "01": "minimum",
+            "0": "Have any images?",
+            "1": "Have any video?",
+            "2": "Advertise Requirements",
+            "3": "Minimum 3 rules required sequentially, text(mn-100,mx-250)"
+        },
+        "Step4":{
+            "firstSection": {
+                "0": "Title",
+                "1": "Description",
+                "2": "Type",
+                "3": "Sub Type",
+                "4": "Requirements",
+                "5": "Images/Videos"
+            },
+            "secondSection": {
+                "0": "Advertise Packages",
+                "1": "Package Name",
+                "2": "Description",
+                "3": "What I will do",
+                "4": "Delivery Time",
+                "5": "Price"
+            }
+        },
+        "Step5":{
+            "0": "Thank You For Your Submission",
+            "1": "You will get an email with further instructions."
+        },
+        "StepProgress":{
+            "0": "title,description,type and sub type",
+            "1": "scope, pricing and description",
+            "2": "gallery and specification",
+            "3": "confirm advertise info",
+            "4": "success and continue another"
+        }
+    },
+    "ViewAdvertise":{
+        "title": "Advertise Overview",
+        "pricingTitle": {
+            "0": "BASIC",
+            "1": "STANDARD",
+            "2": "PREMIUM"
+        },
+        "commonColumn":{
+            "0":"Title",
+            "1": "Description",
+            "2": "Tasks",
+            "3": "Images",
+            "4": "Delivery days",
+            "5": "Price"
+        }
+    }
+}

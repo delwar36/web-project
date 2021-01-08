@@ -1,0 +1,179 @@
+.Package {
+    margin-top: 90px
+}
+
+.Package .PriceAndConditions span {
+    line-height: 25px;
+}
+
+.Package h3 {
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.BoxRow {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.BoxRowElement {
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 1px rgba(44, 42, 42, 0.14), 0px 2px 1px 0px rgba(49, 47, 47, 0.12);
+    background: white;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 5% 5%;
+}
+
+.BoxRowElementButton {
+    text-align: center;
+    font-weight: 500;
+}
+
+.BoxRowElementButton button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    left: 0;
+    height: 52px;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-position: center;
+    transition: background 0.8s;
+    background: transparent;
+    color: white;
+    font-size: 500;
+}
+
+.PackageHeader {
+    border-radius: 3px;
+    padding: 6px 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 1px rgba(44, 42, 42, 0.14), 0px 2px 1px 0px rgba(49, 47, 47, 0.12);
+}
+
+.PackageDescription p {
+    text-align: start;
+    color: #daa520;
+}
+
+.PackageDescription i {
+    margin-right: 5px;
+}
+
+.BoxRowElement p {
+    margin-top: 2px;
+}
+
+.BoxRowElement:hover {
+    box-shadow: 0 8px 16px 0 rgba(109, 108, 108, 0.2);
+}
+
+.PriceAndRatingItems {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.Benefits {
+    height: 160px;
+    overflow: scroll;
+}
+
+.Benefits p {
+    text-align: center;
+    color: #246ef8;
+}
+
+.Benefits small {
+    color: #4dabf7;
+}
+
+.PriceAndConditions {
+    padding: 22px 0px;
+    background: white;
+}
+
+.PriceAndConditions h6 {
+    margin-bottom: 10px;
+}
+
+.PriceAndConditionsItems {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+}
+
+.PriceAndConditionsItem {
+    width: 95%;
+    margin: 5px 10px;
+}
+
+.PriceAndConditionsItem span {
+    color: rgb(112, 78, 55);
+}
+
+.PriceAndConditionsItem h6 {
+    text-align: left;
+    color: #246ef8;
+}
+
+.PriceAndConditions i {
+    margin-right: 10px;
+}
+
+.PriceAndConditions h3 {
+    color: goldenrod;
+    text-align: center;
+    margin: 0px 6px;
+}
+
+.PriceAndConditions p {
+    margin: 10px 0px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+    .BoxRow {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .BoxRowElement {
+        width: 250px;
+        margin: 15px 15px;
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .BoxRow {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .BoxRowElement {
+        width: 290px;
+        max-height: 500px;
+        margin: 15px 20px;
+        padding: 20px 20px;
+    }
+    .PriceAndConditions {
+        margin: 30px 0px;
+    }
+    .PriceAndConditionsItems {
+        margin: 10px 20px;
+    }
+    .PriceAndConditionsItem {
+        width: 32%;
+        margin: 5px 5px;
+    }
+}

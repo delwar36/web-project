@@ -1,0 +1,124 @@
+{
+    "appStartNavigation": {
+        "00": "Recherche de services",
+        "0": "Devenir vendeur",
+        "1": "Mon tableau de bord",
+        "2": "Se déconnecter",
+        "3": "Accueil",
+        "4": "S'identifier",
+        "5": "Joindre",
+        "6": "Anglais",
+        "7": "Français"
+    },
+    "sideDrawer": {
+        "0": "Accueil",
+        "1": "Devenir vendeur",
+        "2": "Mon tableau de bord",
+        "3": "S'identifier",
+        "4": "Joindre",
+        "5": "Se déconnecter",
+        "6": "Contact",
+        "7": "À propos"
+    },
+    "appStartToolbar": {
+        "drawer": "Parcourir les catégories",
+        "0": "La télé",
+        "1": "Radio",
+        "2": "l'Internet",
+        "3": "Des sports",
+        "4": "Cinéma",
+        "5": "Presse",
+        "6": "La musique",
+        "7": "Affiche",
+        "8": "Un événement",
+        "9": "Modes"
+    },
+    "homeSlide": {
+        "00": "Recherche de services",
+        "000": "Acheter ou vendre",
+        "0": "Les annonces parfaites",
+        "1": "Services populaires",
+        "2": "Journal",
+        "3": "Radio",
+        "4": "Site Internet",
+        "5": "Des sports",
+        "6": "Affiche",
+        "7": "La musique",
+        "8": "Des médias sociaux"
+    },
+    "info": {
+        "0": "Ce site est en cours de développement.."
+    },
+    "middle": {
+        "name": "Privilèges",
+        "privilegesList": {
+            "0": "Comprend des supports publicitaires tels que TV, RADIO, SPORT, PRESSE, CINÉMA, MUSIQUE, AFFICHE, ÉVÉNEMENT et plus.",
+            "1": "Tout le monde peut ainsi acheter et vendre ses produits.",
+            "2": "Peut rechercher des produits avec l'emplacement actuel ou l'emplacement de la zone maximale 250 km.",
+            "3": "Inclut toujours les produits publicitaires les plus récents et en vedette.",
+            "4": "Il permet de faire connaître les produits et services, en diffusant les avantages de produits et services spécifiques, via la publicité."
+        }
+    },
+    "imageSlider": {
+        "name": "Services populaires",
+        "list": {
+            "0": "Télévision",
+            "1": "JOURNAL",
+            "2": "RADIO",
+            "3": "L'INTERNET",
+            "4": "SITE INTERNET",
+            "5": "DES MÉDIAS SOCIAUX",
+            "6": "AFFICHE",
+            "7": "LA MUSIQUE"
+        }
+    },
+    "servicesDetails": {
+        "name": "Explorer d'autres services",
+        "list": {
+            "0": "TV",
+            "1": "RADIO",
+            "2": "L'INTERNET",
+            "3": "DES SPORTS",
+            "4": "JOURNAL",
+            "5": "CINÉMA",
+            "6": "LA MUSIQUE",
+            "7": "AFFICHE",
+            "8": "DES MÉDIAS SOCIAUX",
+            "9": "BANNIÈRE"
+        },
+        "other": "Voir les autres services..."
+    },
+    "footer": {
+        "firstSection": {
+            "0": "Support d'aide",
+            "1": "Notre adresse",
+            "2": "Bureau 2200, Ouest,",
+            "3": "Montréal, Québec, H3B 4W8,",
+            "4": "1250 boulevard René Lévesque,"
+        },
+        "secondSection": {
+            "0": "À propos",
+            "1": "À propos de nous",
+            "2": "Comment ça fonctionne",
+            "3": "Sécurité",
+            "4": "Plan du site",
+            "5": "Citations",
+            "6": "Nouvelles"
+        },
+        "thirdSection": {
+            "0": "Termes",
+            "1": "Politique de confidentialité",
+            "2": "Termes et conditions",
+            "3": "Politique de copyright",
+            "4": "Code de conduite",
+            "5": "Frais et charges"
+        },
+        "forthSection": {
+            "0": "Se connecter avec",
+            "1": "Notre email officiel"
+        }
+    },
+    "NormalFooter":{
+        "0": "N'hésitez pas à contacter avec l'email"
+    }
+}

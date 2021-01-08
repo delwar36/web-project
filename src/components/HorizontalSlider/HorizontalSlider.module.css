@@ -1,0 +1,50 @@
+.ItemsContainer {
+    display: flex;
+    flex-flow: row;
+}
+
+.Items {
+    scroll-behavior: smooth;
+    display: flex;
+    flex-flow: row;
+}
+
+.ArrowItem {
+    align-items: center;
+    display: none;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.Button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    color: #2A73CC;
+    box-shadow: 0px 2px 1px -3px rgba(48, 46, 46, 0.2), 0px 1px 0px 0px rgba(44, 42, 42, 0.14), 0px 1px 2px 0px rgba(49, 47, 47, 0.12);
+    transition: .7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button:hover {
+    background: #4dabf7;
+    color: white;
+    box-shadow: 0px 2px 4px 0px rgba(109, 108, 108, 0.2);
+}
+
+@media(min-width:800px) {
+    .ItemsContainer {
+        margin: 0px 10px;
+    }
+    .ArrowItem {
+        display: flex;
+        visibility: visible;
+    }
+    .Button {
+        margin: 0px 5px;
+    }
+}

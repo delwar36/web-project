@@ -1,0 +1,91 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 100%;
+    min-width: 40%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background: white;
+    padding: 3px 2px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    overflow-y: scroll;
+    color: rgb(115, 129, 129);
+}
+
+.UserInfo {
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.closeHandler {
+    margin-left: 5px;
+}
+
+.closeHandler i {
+    float: right;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.closeHandler i:hover {
+    color: #4dabf7
+}
+
+.Divider {
+    height: 1px;
+    background: rgb(233, 230, 230);
+    margin: 3% 0%;
+}
+
+.UserInfo img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.FixedSideNav {
+    width: auto;
+    position: fixed;
+    z-index: 10;
+    top: 65px;
+    background: white;
+    box-shadow: 0 4px 6px 0 rgba(109, 108, 108, 0.2);
+    display: none;
+    max-height: 100%;
+}
+
+.FixedSideNav a {
+    padding: 7px 17px;
+    text-decoration: none;
+    display: block;
+    margin-left: 1px;
+}
+
+@media (min-width: 769px) {
+    .SideDrawer {
+        display: none;
+    }
+    .UserInfo {
+        height: 46%;
+        background: whitesmoke;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .FixedSideNav {
+        display: flex;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}

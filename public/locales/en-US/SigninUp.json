@@ -1,0 +1,32 @@
+{
+    "signin" : {
+        "name" : "Sign In to UMEDIAD",
+        "fields": {
+            "0": "Email",
+            "1": "Password"
+        },
+        "0": "Sign in",
+        "1": "Forgot Password?",
+        "error": "Please,fill up all fields correctly and check your connection"
+    },
+    "signup":{
+        "name": "Join UMEDIAD",
+        "fields": {
+            "0": "Email",
+            "01": "Provide a valid email",
+            "1": "Password",
+            "2": "Confirm Password",
+            "21": "Password does not match",
+            "3": "Password length min=8, max=16, one(small,capital,special character,number) required",
+            "4": "Ensure security check",
+            "5": "Submit"
+        },
+        "error": "Please,fill up all fields correctly and check your connection"
+    },
+    "common": {
+        "0": "Continue with Google",
+        "1": "Continue with Facebook",
+        "2": "Continue with Apple",
+        "3": "OR"
+    }
+}

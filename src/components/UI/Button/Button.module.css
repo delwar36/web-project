@@ -1,0 +1,119 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 0px 17px;
+    border-radius: 3px;
+    margin-right: 5px;
+    background-position: center;
+    transition: background 0.8s;
+    height: 40px;
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 4px 0px rgba(49, 47, 47, 0.12);
+    color: white;
+}
+
+.Button i {
+    margin-right: 10px;
+}
+
+.Button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.Button:hover {
+    background: #1DBF73 radial-gradient(circle, transparent 0%, #17da7f 1%) center/15000%;
+}
+
+.Button:active {
+    background-color: rgb(214, 216, 211);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.Success {
+    background: green;
+}
+
+.LoadMore {
+    background: #1DBF73;
+    width: 92%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.Submit {
+    background: #1DBF73;
+}
+
+.Common {
+    background: #1DBF73;
+    font-weight: bold;
+}
+
+.Success:hover {
+    background: rgb(2, 102, 2);
+}
+
+.Google {
+    background: tomato;
+    font-weight: bold;
+}
+
+.Facebook {
+    background: blueviolet;
+    font-weight: bold;
+}
+
+.Apple {
+    font-weight: bold;
+    background: rgb(240, 205, 11);
+}
+
+.Google:hover {
+    background: red;
+}
+
+.Facebook:hover {
+    background: blue;
+}
+
+.Apple:hover {
+    background: rgb(165, 141, 5);
+}
+
+.AppleDark {
+    background: gray;
+    font-weight: bold;
+}
+
+.AppleDark:hover {
+    background: rgb(87, 85, 85);
+}
+
+.Danger {
+    color: white;
+    background: red;
+}
+
+.Danger:hover {
+    background: rgb(163, 3, 3);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .LoadMore {
+        width: 70%;
+    }
+}
+
+@media (min-width: 800px) {
+    .LoadMore {
+        width: 40%;
+    }
+    .Button {
+        height: 43px;
+    }
+}

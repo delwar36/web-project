@@ -1,0 +1,54 @@
+.no-suggestions {
+    color: lightpink;
+    /* padding: 0.5rem; */
+}
+
+.suggestions {
+    border-radius: 3px;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    max-height: 143px;
+    overflow-y: auto;
+    padding-left: 0;
+    /* width: calc(300px + 1rem); */
+    width: 89%;
+    box-shadow: 0px 1px 1px 0px rgba(109, 108, 108, 0.2);
+    position: absolute;
+    background: rgb(251, 251, 251);
+}
+
+.suggestions li {
+    padding: 0.5rem;
+}
+
+.suggestion-active, .suggestions li:hover {
+    background-color: rgb(229, 223, 235);
+    color: blueviolet;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 96%;
+    /* font-weight: 700; */
+}
+
+.suggestions li:not(:last-of-type) {
+    /* border-bottom: 1px solid lightpink; */
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .suggestions {
+        width: 88%;
+    }
+    .suggestion-active, .suggestions li:hover {
+        width: 97%;
+    }
+}
+
+@media (min-width: 800px) {
+    .suggestions {
+        width: 34%;
+    }
+    .suggestion-active, .suggestions li:hover {
+        width: 95%;
+    }
+}

@@ -1,0 +1,139 @@
+.AuthItems {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.Auth {
+    padding: 15px 0px;
+    border-radius: 5px;
+    width: 98%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.SocialButton {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 35% 65%;
+}
+
+.SocialText {
+    text-align: start;
+}
+
+.SocialButton i {
+    font-size: 22px;
+}
+
+.closeHandler i {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Auth button {
+    margin-top: 15px;
+    height: 43px;
+    margin-left: 5px;
+    width: 95%;
+    align-items: center;
+}
+
+.SignUpButton button {
+    margin-left: 5px;
+}
+
+.Auth h6 {
+    margin: 10px 0px;
+}
+
+.Auth h4 {
+    margin-top: 15px;
+}
+
+.ModalFooter {
+    margin: 15px 0px;
+}
+
+.ModalFooter a {
+    text-decoration: none;
+}
+
+.ModalFooter a:hover {
+    text-decoration: underline;
+}
+
+.Auth input {
+    outline: none;
+    font: inherit;
+    padding: 0px 10px;
+    width: 90%;
+    height: 43px;
+    border: none;
+    transition: .2s;
+    border-bottom: 1px solid rgb(232, 242, 247);
+}
+
+.Auth input:hover {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: none;
+}
+
+.Auth input:focus {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgb(232, 242, 247);
+    border-bottom: 2px solid #2187da;
+    box-shadow: none;
+}
+
+.Divider {
+    margin: 10px 0px;
+}
+
+.Invalid {
+    border: 1px solid #703B09;
+    background-color: #703B09;
+}
+
+.Captcha {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.Auth strong {
+    float: right;
+    margin-right: 10px;
+}
+
+.PasswordWrapper {
+    position: relative;
+}
+
+.PasswordWrapper i {
+    position: absolute;
+    color: lightskyblue;
+    top: 30%;
+    right: 5%;
+    transition: .5s;
+}
+
+.PasswordWrapper i:hover {
+    color: #2187da;
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .Auth {
+        width: 500px;
+        padding: 15px 10px;
+    }
+}

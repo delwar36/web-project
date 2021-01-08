@@ -1,0 +1,43 @@
+{
+    "above":{
+        "0": "Commencer à vendre",
+        "1": "Nous allons vous faciliter la tâche",
+        "2": "Devenir vendeur",
+        "sections":{
+            "0" : "Une publicité est achetée chaque",
+            "1": "4 SECONDES",
+            "2": "Transactions",
+            "3": "Échelle des prix"
+        }
+    },
+    "middle":{
+        "0": "Rejoignez notre communauté grandissante"
+    },
+    "below":{
+        "name": "Comment ça fonctionne",
+        "options":{
+            "0":{
+                "00": "1. Créez une publicité",
+                "01": "Cupidatat travail excepté les devoirs de football Cupidatat ne parviennent pas à venir faute de quoi la grande évasion."
+            },
+            "1":{
+                "10": "2. Fournissez un excellent travail",
+                "11": "Cupidatat travail excepté les devoirs de football Cupidatat ne parviennent pas à venir faute de quoi la grande évasion."
+            },
+            "2":{
+                "20": "3. Soyez payé",
+                "21": "Cupidatat travail excepté les devoirs de football Cupidatat ne parviennent pas à venir faute de quoi la grande évasion."
+            }
+        },
+        "stories": {
+            "name": "Histoires d'acheteurs",
+            "0":{
+                "00": "Il n'y a aucun moyen que j'aie pu produire quoi que ce soit sans Umediad."
+            }
+        },
+        "others":{
+            "0": "Inscrivez-vous et créez votre première publicité aujourd'hui",
+            "1": "Commencer"            
+        }
+    }
+}

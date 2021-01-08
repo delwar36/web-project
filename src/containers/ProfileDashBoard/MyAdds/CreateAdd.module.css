@@ -1,0 +1,856 @@
+ .CreateAdd {
+     margin-top: 75px;
+     margin-bottom: 20px;
+ }
+
+ .CreateAddItems {
+     width: 97%;
+     margin: auto;
+     background: white;
+     border-radius: 5px;
+     box-shadow: 0px 4px 8px 0px whitesmoke;
+ }
+
+ .CreateAddItems strong {
+     float: right;
+     color: gray;
+     font-size: 10px;
+     font-style: normal;
+ }
+
+ .CreateAddItemsStyle {
+     padding: 10px 5px;
+     margin: 0px 5px;
+ }
+
+ .CreateAddItemsStyle h4 {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .CreateAddItems input {
+     outline: none;
+     font: inherit;
+     padding: 10px 10px;
+     border: none;
+     transition: .5s;
+     border-bottom: 2px solid rgb(250, 250, 250);
+ }
+
+ .CreateAddItems input:focus {
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     background-color: rgb(232, 242, 247);
+     border-bottom: 2px solid rgb(178, 120, 231);
+ }
+
+ .TitleAndDescription {
+     display: flex;
+     flex-flow: column;
+     flex-wrap: wrap;
+     width: 100%;
+ }
+
+ .AudienceAndVisibility {
+     display: flex;
+     flex-flow: column;
+     flex-wrap: wrap;
+     width: 100%;
+ }
+
+ .AudienceAndVisibilityItems {
+     display: flex;
+     flex-flow: column;
+     width: 100%;
+ }
+
+ .AudienceAndVisibility strong {
+     text-align: right;
+ }
+
+ .AudienceAndVisibility textarea {
+     height: 130px;
+ }
+
+ .Title {
+     width: 100%;
+ }
+
+ .NB {
+     text-align: right;
+ }
+
+ .Description {
+     width: 100%;
+ }
+
+ .MobileOnly {
+     height: 1px;
+     background: rgb(225, 225, 225);
+     margin: 15px 0px;
+ }
+
+ .DividerH {
+     margin: 0px 10px;
+     background: rgb(225, 225, 225);
+     width: 1px;
+ }
+
+ .Divider {
+     height: 1px;
+     background: rgb(225, 225, 225);
+     margin: 15px 0px;
+ }
+
+ .DividerWithoutStyle {
+     margin: 10px 0px;
+ }
+
+ .DividerWithoutStyleH {
+     margin: 0px 10px;
+ }
+
+ .CreateAddItems textarea {
+     border-bottom: 2px solid rgb(250, 250, 250);
+     width: 95%;
+     outline: none;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+     box-shadow: none;
+     resize: none;
+     border: none;
+     padding: 10px 10px;
+     font-size: 14px;
+     border-radius: 5px;
+     transition: .2s;
+     background: rgb(250, 250, 250);
+ }
+
+ .CreateAddItems textarea:focus {
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     background-color: rgb(232, 242, 247);
+     border-bottom: 2px solid rgb(178, 120, 231);
+ }
+
+ .Title textarea {
+     height: 80px;
+     font-size: 25px;
+ }
+
+ .Description textarea {
+     height: 150px;
+ }
+
+ .TypeAndSubType {
+     display: flex;
+     flex-flow: column;
+     flex-wrap: wrap;
+     width: 100%;
+ }
+
+ .Type {
+     width: 100%;
+     /* display: flex; */
+     /* flex-flow: column; */
+ }
+
+ .SubType {
+     width: 100%;
+ }
+
+ .CreateAddItems select {
+     outline: none;
+     border: none;
+     border-radius: 3px;
+     height: 45px;
+     width: 100%;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     -ms-appearance: none;
+     padding-left: 5px;
+     font-size: 16px;
+     color: gray;
+     transition: .1s;
+     font-family: inherit;
+     /* background: rgb(250, 250, 250); */
+ }
+
+ .CreateAddItems select:hover {
+     background-color: rgb(250, 250, 250);
+     cursor: pointer;
+ }
+
+ .CreateAddItems select:focus {
+     background-color: white;
+     color: #111;
+     box-shadow: none;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     background-color: rgb(232, 242, 247);
+     border-bottom: 2px solid rgb(178, 120, 231);
+ }
+
+ .DownArrow {
+     background: url(../../../assets/images/DownArrow.png);
+     background-repeat: no-repeat;
+     background-position: 95%;
+ }
+
+ /* .TypeAndSubType span {
+     margin-left: 3px;
+ } */
+
+ .typeAndSubTypeField {
+     display: inline;
+     /* width: 47%; */
+     /* flex-flow: row; */
+     /* flex-wrap: wrap; */
+ }
+
+ .typeAndSubTypeField input {
+     outline: none;
+     /* background-color: whitesmoke; */
+     font: inherit;
+     border-radius: 20px;
+     width: 100px;
+     height: 31px;
+     color: gray;
+     padding: 0px 10px;
+     margin-top: 3px;
+     margin-right: 3px;
+     border: 1px solid whitesmoke;
+     background: whitesmoke;
+     /* box-shadow: 1px 1px 1px 0px rgba(141, 131, 131, 0.2); */
+ }
+
+ .typeAndSubTypeField input:focus {
+     border: 1px solid rgb(178, 120, 231);
+     background: white;
+     color: #111;
+ }
+
+ .AddOrRemoveButton {
+     display: flex;
+     flex-flow: row;
+     justify-content: space-around;
+ }
+
+ .AddOrRemoveButton button {
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     align-items: center;
+     padding: 0px 5px;
+     box-shadow: none;
+ }
+
+ .AddOrRemoveButton i {
+     margin-right: 2px;
+ }
+
+ .AddOrRemoveButton span {
+     padding-left: 3px;
+ }
+
+ .NumberOfPackage {
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ .NumberOfPackage select {
+     width: 15%;
+     margin-left: 10px;
+     background: rgb(250, 250, 250);
+     transition: .5s;
+ }
+
+ .PackageDescription {
+     display: flex;
+     flex-flow: column;
+     justify-content: flex-start;
+ }
+
+ .PackageDescription select {
+     border: 2px solid white;
+     transition: .5s;
+ }
+
+ .PackageDescriptionItem {
+     display: flex;
+     flex-flow: column;
+     width: 96%;
+     margin: 0px 10px;
+ }
+
+ .PackageDescriptionItem strong {
+     text-align: right;
+ }
+
+ .PackageDescriptionItem textarea {
+     height: 100px;
+ }
+
+ .PackageDescriptionItemName textarea {
+     height: 50px;
+ }
+
+ .PackageTypeHeader {
+     font-weight: 600;
+     text-align: center;
+     padding: 10px;
+     border-radius: 20px;
+     color: white;
+ }
+
+ .PackageTask {
+     display: flex;
+     flex-flow: column;
+     max-height: 200px;
+     overflow-y: scroll;
+ }
+
+ .PackageTask input {
+     border-radius: 5px;
+     background: rgb(250, 250, 250);
+     border: 1px solid rgb(250, 250, 250);
+     height: 15px;
+     /* width: 94%; */
+     margin-top: 5px;
+ }
+
+ .PackageTask input:focus {
+     background: white;
+     border: 1px solid #4dabf7;
+     transition: .7s;
+ }
+
+ .HavePhotos {
+     width: 100%;
+ }
+
+ .FileInput input[type="file"] {
+     display: none;
+ }
+
+ .FileInput label {
+     color: white;
+     transition: background 0.5s;
+     height: 43px;
+     border-radius: 3px;
+     box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 4px 0px rgba(49, 47, 47, 0.12);
+     background: #4dabf7;
+     margin: auto;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     font-size: 17px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+
+ .FileInput label:hover {
+     cursor: pointer;
+     background: rgb(152, 88, 212);
+ }
+
+ .FileInput span {
+     margin-left: 10px;
+ }
+
+ .Photos {
+     display: flex;
+     flex-flow: row;
+     flex-wrap: wrap;
+ }
+
+ .Photos {
+     margin: 15px 0px;
+ }
+
+ .PhotosItems {
+     position: relative;
+ }
+
+ .PhotosItems img {
+     height: 120px;
+     width: 150px;
+     border-radius: 3px;
+     margin-right: 5px;
+     margin-top: 5px;
+     box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 4px 0px rgba(49, 47, 47, 0.12);
+ }
+
+ .PhotosItems video {
+     box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 4px 0px rgba(49, 47, 47, 0.12);
+ }
+
+ .Photos button {
+     position: absolute;
+     right: 0;
+     top: 5px;
+     border-radius: 3px;
+     background: rgba(0, 0, 0, 0.2);
+     height: 30px;
+     width: 30px;
+     align-items: center;
+     padding: 0px 5px;
+     box-shadow: none;
+ }
+
+ .Photos button:hover {
+     background: rgba(0, 0, 0, 0.4);
+ }
+
+ .CreteAddButton {
+     text-align: center;
+ }
+
+ .CreteAddButton button {
+     width: 50%;
+ }
+
+ .TaskDivider {
+     margin: 5px 0px;
+ }
+
+ .Tasks {
+     display: flex;
+     flex-flow: column;
+     word-wrap: break-word;
+ }
+
+ .Progress {
+     display: flex;
+     flex-flow: row;
+     justify-content: flex-start;
+     margin: 0px 10px;
+     flex-wrap: wrap;
+ }
+
+ .ProgressItemStyle {
+     width: 48%;
+ }
+
+ .ProgressItem {
+     display: flex;
+     flex-flow: row;
+     align-items: center;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ .ProgressColumn {
+     display: flex;
+     flex-flow: column;
+ }
+
+ .ProgressColumnText {
+     height: 25px;
+     width: 150px;
+ }
+
+ .ProgressColumnTextActive {
+     height: 25px;
+     width: 150px;
+ }
+
+ .ProgressColumnText strong {
+     color: wheat;
+     margin-left: 10px;
+     font-style: normal;
+ }
+
+ .ProgressColumnTextActive strong {
+     color: #1DBF73;
+     margin-left: 20px;
+ }
+
+ .Circle {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background-color: wheat;
+     transition: .5s;
+     color: rgb(216, 195, 157);
+ }
+
+ .CircleActive {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background: #1DBF73;
+     transition: .5s;
+     color: white;
+ }
+
+ .Line {
+     height: 2px;
+     width: 90%;
+     background-color: wheat;
+     border-radius: 3px;
+ }
+
+ .LineActive {
+     height: 2px;
+     width: 90%;
+     background-color: #1DBF73;
+     border-radius: 3px;
+ }
+
+ .StepsButton {
+     display: flex;
+     flex-flow: row;
+     justify-content: right;
+     height: 50px;
+ }
+
+ .AdvertiseSpecification {
+     display: flex;
+     flex-flow: column;
+     flex-wrap: wrap;
+ }
+
+ .AdvertiseSpecificationItem {
+     width: 100%;
+ }
+
+ .AdvertiseSpecificationSingleItem {
+     display: flex;
+     flex-flow: row;
+     margin-top: 5px;
+ }
+
+ .AdvertiseSpecificationTextArea {
+     width: 100%;
+ }
+
+ .AdvertiseSpecificationTextArea textarea {
+     font-size: 15px;
+     background: rgb(250, 250, 250);
+     transition: .5s;
+ }
+
+ .AdvertiseSpecificationTextArea textarea:focus {
+     font-size: 15px;
+     border: 2px solid #4dabf7;
+     background: white;
+ }
+
+ .ConfirmAdvertise {
+     display: flex;
+     flex-flow: column;
+     word-wrap: break-word;
+ }
+
+ .ConfirmAdvertiseItems {
+     display: flex;
+     flex-flow: column;
+     width: 100%;
+ }
+
+ .ConfirmAdvertiseItemRow {
+     display: flex;
+     flex-flow: column;
+ }
+
+ .ConfirmAdvertiseItemColumn1 {
+     font-weight: bold;
+     width: 100%;
+ }
+
+ .ConfirmAdvertiseItemColumn2 {
+     font-weight: normal;
+ }
+
+ .ConfirmPhotos {
+     display: flex;
+     flex-flow: row;
+     overflow-x: scroll;
+ }
+
+ .ConfirmPhotos img {
+     height: 120px;
+     width: 150px;
+     border-radius: 3px;
+     margin-right: 5px;
+     margin-top: 5px;
+ }
+
+ .PackagesConfirmHeader {
+     font-weight: bold;
+ }
+
+ .ConfirmAdvertiseItemRow h6 {
+     text-align: center;
+     background: #4dabf7;
+ }
+
+ .Congratulations {
+     width: 95%;
+     text-align: center;
+ }
+
+ .DeliveryTime {
+     display: flex;
+     flex-flow: row;
+ }
+
+ .DeliveryTime input {
+     width: 25%;
+ }
+
+ .DeliveryTime select {
+     width: 70%;
+ }
+
+ @media only screen and (min-width: 501px) and (max-width: 769px) {
+     .CreateAdd {
+         margin-left: 0%;
+     }
+     .CreateAddItems {
+         width: 97%;
+         margin: auto;
+     }
+     .TypeAndSubType {
+         flex-flow: row;
+     }
+     .ProgressItemStyle {
+         width: 36%;
+     }
+     .Progress {
+         justify-content: center;
+     }
+     .PackageDescriptionItem {
+         width: 96%;
+     }
+     .HavePhotos {
+         width: 30%;
+     }
+     .Photos img {
+         height: 150px;
+         width: 200px;
+     }
+     .AdvertiseSpecification {
+         flex-flow: row;
+         flex-wrap: wrap;
+     }
+     .AdvertiseSpecificationItem {
+         margin: 0px 10px;
+         width: 46%;
+     }
+     .AdvertiseSpecificationItem textarea {
+         font-size: 17px;
+     }
+     .MobileOnly {
+         display: block;
+     }
+     .ConfirmAdvertise {
+         display: flex;
+         flex-flow: column;
+     }
+     .ConfirmAdvertiseItemRow {
+         flex-flow: column;
+     }
+     .ConfirmAdvertiseItemColumn1 {
+         width: 100%;
+     }
+     .ConfirmAdvertiseItemColumn2 {
+         width: 100%;
+     }
+     .ConfirmPhotos {
+         flex-flow: row;
+         flex-wrap: wrap;
+     }
+     .ConfirmPhotos img {
+         height: 150px;
+         width: 200px;
+     }
+ }
+
+ @media (min-width: 770px) {
+     .CreateAdd {
+         margin-left: 4%;
+     }
+     .CreateAddItems {
+         width: 85%;
+         margin: auto;
+     }
+     .MobileOnly {
+         display: none;
+     }
+     .CreateAdd_DividerH__1JBhS {
+         margin: 0px 10px;
+         background: whitesmoke;
+         width: 2px;
+     }
+     .TitleAndDescription {
+         flex-flow: row;
+     }
+     .AudienceAndVisibility {
+         flex-flow: row;
+     }
+     .AudienceAndVisibilityItems {
+         width: 50%;
+     }
+     .AudienceAndVisibility textarea {
+         height: 150px;
+     }
+     .Title {
+         width: 49%;
+     }
+     .Description {
+         width: 49%;
+     }
+     .TypeAndSubType {
+         flex-flow: row;
+     }
+     .Type {
+         width: 49%;
+     }
+     .SubType {
+         width: 49%;
+     }
+     .CreateAddItemsStyle {
+         padding: 10px 10px;
+         margin: 0px 15px;
+     }
+     .ProgressItemStyle {
+         width: 15%;
+     }
+     .Progress {
+         justify-content: center;
+     }
+     .PackageDescription {
+         flex-flow: row;
+         justify-content: center;
+     }
+     .PackageDescriptionItem {
+         width: 32%;
+     }
+     .NumberOfPackage select {
+         width: 10%;
+         text-align: center;
+         margin-left: 10px;
+         border: 2px solid whitesmoke;
+     }
+     .HavePhotos {
+         width: 20%;
+     }
+     .Photos img {
+         height: 200px;
+         width: 250px;
+     }
+     .AdvertiseSpecification {
+         flex-flow: row;
+         flex-wrap: wrap;
+     }
+     .AdvertiseSpecificationItem {
+         width: 30%;
+         margin: 0px 10px;
+     }
+     .AdvertiseSpecificationItem textarea {
+         font-size: 17px;
+     }
+     .ConfirmAdvertise {
+         flex-flow: row;
+     }
+     .ConfirmAdvertiseItems {
+         width: 49%;
+     }
+     .ConfirmAdvertiseItemRow {
+         flex-flow: row;
+     }
+     .ConfirmAdvertiseItemColumn1 {
+         width: 30%;
+     }
+     .ConfirmAdvertiseItemColumn2 {
+         width: 70%;
+     }
+     .ConfirmPhotos {
+         flex-wrap: wrap;
+     }
+     .ConfirmPhotos img {
+         height: 180px;
+         width: 220px;
+     }
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1250px) {
+     .ProgressItemStyle {
+         width: 25%;
+     }
+     .Progress {
+         justify-content: start;
+     }
+     .PackageDescription {
+         flex-flow: row;
+         flex-wrap: wrap;
+         /* justify-content: center; */
+         justify-content: flex-start;
+         margin-bottom: 10px;
+     }
+     .PackageDescriptionItem {
+         width: 45%;
+         margin-bottom: 15px;
+     }
+     .HavePhotos {
+         width: 30%;
+     }
+     .Photos img {
+         height: 170px;
+         width: 230px;
+     }
+     .AdvertiseSpecification {
+         flex-flow: row;
+         flex-wrap: wrap;
+     }
+     .AdvertiseSpecificationItem {
+         width: 46%;
+         margin: 0px 10px;
+     }
+     .AdvertiseSpecificationItem textarea {
+         font-size: 17px;
+     }
+     .MobileOnly {
+         display: none;
+     }
+     .ConfirmAdvertise {
+         flex-flow: row;
+     }
+     .ConfirmAdvertiseItemColumn1 {
+         width: 100%;
+     }
+     .ConfirmAdvertiseItemColumn2 {
+         width: 100%;
+     }
+     .ConfirmAdvertiseItemRow {
+         flex-flow: column;
+         justify-content: center;
+     }
+     .ConfirmPhotos {
+         flex-wrap: wrap;
+     }
+     .ConfirmPhotos img {
+         height: 140px;
+         width: 180px;
+     }
+ }

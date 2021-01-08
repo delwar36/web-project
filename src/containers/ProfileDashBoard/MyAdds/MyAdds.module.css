@@ -1,0 +1,298 @@
+.MyAdds {
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
+
+.MyAdds h4 {
+    text-align: center;
+}
+
+.MyAddsMain {
+    border-radius: 5px;
+    background: white;
+    margin: auto;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.MyAddsItems {
+    margin: 1% 1%;
+}
+
+.MyAddsItems a {
+    text-decoration: none;
+    outline-style: none;
+    color: white;
+}
+
+.MyAddsItems button {
+    margin-left: 5px;
+}
+
+.CreateAddButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddNew {
+    display: flex;
+}
+
+.AddNew span {
+    margin-top: 2px;
+}
+
+.MyAddsTable {
+    position: relative;
+}
+
+.MyAddsTableTitle {
+    height: 45px;
+    width: 185px;
+    background: lime;
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    right: 0;
+    top: -30px;
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 2px 0px rgba(49, 47, 47, 0.12);
+    color: white;
+    display: none;
+}
+
+.TitleValue {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.MyAddsTableItems {
+    display: flex;
+    flex-flow: column;
+}
+
+.MyAddsTableDesktopOnly {
+    display: none;
+}
+
+.TableHeader {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    padding: 15px 5px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    font-weight: bold;
+    color: rgb(154, 116, 190);
+    background: rgb(250, 250, 250);
+}
+
+.TableSingleItem {
+    display: flex;
+    flex-flow: row;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    transition: .5s;
+    background: white;
+}
+
+.TableSingleItem:hover {
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+.DividerH {
+    margin: 0px 6px;
+}
+
+.DividerV {
+    margin: 7px 0px;
+}
+
+.TableSingleItem1 {
+    width: 5%;
+}
+
+.TableSingleItem2 {
+    width: 13%;
+}
+
+.TableSingleItem3 {
+    width: 17%;
+}
+
+.TableSingleItem4 {
+    width: 10%;
+}
+
+.TableSingleItem5 {
+    width: 13%;
+}
+
+.TableSingleItem6 {
+    width: 6%;
+}
+
+.TableSingleRowItem1 {
+    width: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.TableSingleRowItem2 {
+    width: 13%;
+}
+
+.TableSingleRowItem3 {
+    width: 17%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.TableSingleRowItem4 {
+    width: 10%;
+    text-align: center;
+}
+
+.TableSingleRowItem5 {
+    width: 13%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.TableSingleRowItem6 {
+    width: 6%;
+    text-align: center;
+}
+
+.TableSingleRowItem5 button {
+    height: 30px;
+    width: 30px;
+    padding: 0px 7px;
+}
+
+.TableSingleRowItemForMobileOnly {
+    display: block;
+}
+
+.TableSingleRowItemColumnForMobile {
+    display: flex;
+    flex-flow: column;
+    margin: 10px 10px;
+    padding: 15px 15px;
+    box-shadow: 0px 1px 1px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 2px rgba(44, 42, 42, 0.14), 0px 1px 1px 0px rgba(49, 47, 47, 0.12);
+    border-radius: 5px;
+}
+
+.TableSingleRowItemForMobile {
+    display: flex;
+    flex-flow: row;
+}
+
+.TableSingleRowItemForMobileLabel {
+    width: 25%;
+    font-weight: bold;
+    color: rgb(154, 116, 190);
+}
+
+.TableSingleRowItemForMobileValue {
+    width: 73%;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    flex-flow: row;
+}
+
+.TableSingleRowItemColumnForMobile button {
+    height: 35px;
+    width: 35px;
+    padding: 0px 10px;
+    margin-right: 25px;
+}
+
+.ViewAdvertise {
+    padding: 10px 10px;
+}
+
+.ViewAdvertiseHeader {
+    display: flex;
+    flex-flow: row;
+}
+
+.ViewAdvertiseHeader i {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ViewAdvertiseHeader i:hover {
+    color: goldenrod;
+}
+
+.ViewAdvertiseHeaderItem1 {
+    width: 95%;
+}
+
+.ViewAdvertiseHeaderItem2 {
+    width: 5%;
+}
+
+.ViewAdvertiseMain {
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+.ViewAdvertiseMainRow {
+    margin: 10px 5px;
+}
+
+.ViewAdvertiseMainRow h6 {
+    padding: 8px 10px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+.ViewAdvertiseRowItemLabel {
+    width: 25%;
+    font-weight: bold;
+    color: rgb(169, 95, 238);
+}
+
+.ViewAdvertiseRowItemValue {
+    width: 73%;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    flex-flow: row;
+}
+
+@media (min-width: 763px) {
+    .MyAdds {
+        margin-left: 4%;
+    }
+    .MyAddsMain {
+        width: 95%;
+    }
+    .MyAddsTable {
+        margin: 15px 10px;
+        background: rgb(250, 250, 250);
+        box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 1px 1px 0px rgba(44, 42, 42, 0.14), 0px 2px 2px 0px rgba(49, 47, 47, 0.12);
+        border-radius: 3px;
+        position: relative;
+    }
+    .MyAddsTableDesktopOnly {
+        display: block;
+    }
+    .TableSingleRowItemForMobileOnly {
+        display: none;
+    }
+    .MyAddsTableTitle {
+        display: block;
+    }
+}

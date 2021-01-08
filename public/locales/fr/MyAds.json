@@ -1,0 +1,147 @@
+{
+    "MyAdds":{
+        "title": "Mes annonces",
+        "create": "Créer une nouvelle annonce",
+        "name": "Mes toutes publicités",
+        "columnNames": {
+            "0":"No",
+            "1": "Titre",
+            "2": "La description",
+            "3": "Type",
+            "4": "Sous-type",
+            "5": "Paquets",
+            "6": "Actions",
+            "7": "Créé à",
+            "8": "Mis à jour à"
+        }
+    },
+    "CreateAdd": {
+        "title": "Créez votre nouvelle publicité",
+        "button1": "Continuer",
+        "button2": "Retour",
+        "button3": "Confirmer et continuer",
+        "button4": "Soumettre",
+        "NB": "NB: Veuillez remplir tous les champs",
+        "Step1": {
+            "firstSection": {
+                "title": "Type et sous-type",
+                "typeOptions": {
+                    "0": "Sélectionnez le type de publicité",
+                    "1": "La télé",
+                    "2": "L'INTERNET"
+                },
+                "subtypeOptions":{
+                    "0": "Sélectionnez le sous-type pour ",
+                    "TV": {
+                        "0":"Généraliste",
+                        "1":"Nouvelles",
+                        "2":"Des sports",
+                        "3":"La gastronomie",
+                        "4":"Humour",
+                        "5":"Adulte"
+                    },
+                    "INTERNET":{
+                        "0": "la toile",
+                        "1": "Des médias sociaux",
+                        "2": "Application mobile",
+                        "3": "Envoi postal",
+                        "4": "Objets connectés"
+                    }
+                },
+                "others":{
+                    "0": "Ou, créez un type",
+                    "1": "Ou, créez un sous-type"
+                }
+            },
+            "secondSection":{
+                "title": "Titre et description",
+                "fields":{
+                    "default": "je ferai ",
+                    "0": "Donnez un titre",
+                    "1": "Avez-vous une description?"
+                },
+                "0": "maximum",
+                "1": "le minimum"
+            }
+        },
+        "Step2":{
+            "title": "Choisissez le nombre de forfaits",
+            "name": "Paquets",
+            "packageTypes": {
+                "0": "DE BASE",
+                "1": "LA NORME",
+                "2": "PRIME"
+            },
+            "SinglePackageItem":{
+                "0": "Nom de votre colis",
+                "1":"Décrivez les détails de votre forfait",
+                "2": "Que vais-je faire? / Tâches",
+                "3": "Vos tâches assurées:",
+                "4": "Heure de livraison",
+                "5": "Durée",
+                "6": "Sélectionnez un type",
+                "durationTypes": {
+                    "0": "minutes", 
+                    "1": "heures", 
+                    "2": "journées", 
+                    "3": "mois", 
+                    "4": "années"
+                },
+                "7": "Donnez un prix ($)"
+            }
+        },
+        "Step3": {
+            "00": "maximum",
+            "01": "minimum",
+            "0": "Vous avez des images?",
+            "1": "Avez-vous une vidéo?",
+            "2": "Exigences de publicité",
+            "3": "Minimum 3 règles requises séquentiellement, texte(mn-100,mx-250)"
+        },
+        "Step4":{
+            "firstSection": {
+                "0": "Titre",
+                "1": "La description",
+                "2": "Type",
+                "3": "Sous-type",
+                "4": "Exigences",
+                "5": "Images / Vidéos"
+            },
+            "secondSection": {
+                "0": "Annoncer des packages",
+                "1": "Nom du paquet",
+                "2": "La description",
+                "3": "Ce que je ferai",
+                "4": "Heure de livraison",
+                "5": "Prix"
+            }
+        },
+        "Step5":{
+            "0": "Merci pour votre soumission",
+            "1": "Vous recevrez un e-mail avec des instructions supplémentaires."
+        },
+        "StepProgress":{
+            "0": "titre, description, type et sous-type",
+            "1": "portée, prix et description",
+            "2": "galerie et spécifications",
+            "3": "confirmer les informations sur la publicité",
+            "4": "succès et continuer un autre"
+        }
+    },
+    "ViewAdvertise":{
+        "title": "Présentation de la publicité",
+        "pricingTitle": {
+            "0": "DE BASE",
+            "1": "LA NORME",
+            "2": "PRIME"
+        },
+        "commonColumn":{
+            "0": "Titre",
+            "1": "La description",
+            "2": "Tâches",
+            "3": "Images",
+            "4": "Jours de livraison",
+            "5": "Prix"
+        }
+    }
+}

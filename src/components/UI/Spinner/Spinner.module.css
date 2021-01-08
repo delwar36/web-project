@@ -1,0 +1,9 @@
+.Spinner {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 95%;
+  margin: 0 20px;
+}

@@ -1,0 +1,18 @@
+.NetworkError {
+    padding: 15px 15px;
+}
+
+.NetworkError i {
+    font-size: 20px;
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.NetworkError i:hover {
+    color: rgb(157, 100, 211);
+}
+
+.NetworkError big{
+    color: red;
+}

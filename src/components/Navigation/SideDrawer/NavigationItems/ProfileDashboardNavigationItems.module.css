@@ -1,0 +1,42 @@
+.NavigationItems {
+    display: flex;
+    font-weight: 400;
+    flex-flow: column;
+    width: 65px;
+    padding: 0px 2px;
+}
+
+.Tooltip {
+    position: relative;
+}
+
+.TooltipText {
+    visibility: hidden;
+    width: 80px;
+    background: whitesmoke;
+    color: #1DBF73;
+    text-align: center;
+    padding: 13px 0px;
+    position: absolute;
+    z-index: 100;
+    left: 25px;
+    top: -7px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    overflow-x: hidden;
+    max-width: 0px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+
+.Tooltip:hover .TooltipText {
+    visibility: visible;
+    max-width: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}

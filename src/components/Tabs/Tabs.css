@@ -1,0 +1,31 @@
+
+.tab-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.tab-list-item {
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    border-bottom: 2px solid white;
+    padding: 10px 30px;
+    margin: 0px 2px;
+}
+
+.tab-list-item:hover {
+    color: #368EC5;
+    background: rgba(190, 200, 228, 0.2);
+}
+
+.tab-list-active {
+    position: relative;
+    border-bottom: 2px solid #368EC5;
+    color: #368EC5;
+    padding: 10px 30px;
+}

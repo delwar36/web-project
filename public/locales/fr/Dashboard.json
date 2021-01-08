@@ -1,0 +1,20 @@
+{
+    "ProfiledashboardNavigationItems":{
+        "0": "Recherche de services",
+        "1": "Mon tableau de bord",
+        "2": "Se déconnecter"
+    },
+    "DashboardNavigation":{
+        "0": "Accueil",
+        "1": "Mon tableau de bord",
+        "2": "Mon profil",
+        "3": "Mes annonces",
+        "4": "Ordres",
+        "5": "Boîte de réception",
+        "6": "Vendue",
+        "7": "Les clients",
+        "8": "Gains",
+        "9": "Les factures",
+        "10": "Commentaires"
+    }
+}

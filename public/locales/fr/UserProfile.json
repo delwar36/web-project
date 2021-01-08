@@ -1,0 +1,81 @@
+{
+    "firstSection":{
+        "title": "À propos de moi",
+        "names":{
+            "0": "Email",
+            "1": "Code de Parrainage",
+            "2": "Est vérifié",
+            "3": "Le genre",
+            "4": "Âge"
+        }
+    },
+    "secondSection":{
+        "title": "Adresse de l'entreprise / de l'utilisateur",
+        "names": {
+            "mobile": {
+                "0": "Nom",
+                "1": "La description",
+                "2": "Emplacement",
+                "3": "latitude",
+                "4": "longitude",
+                "5": "Numéro de téléphone"
+            },
+            "0": "rue",
+            "1": "Ville",
+            "2": "Etat",
+            "3": "Code postal",
+            "4": "Pays",
+            "5": "Numéro de téléphone"
+        }
+    },
+    "button": "Editer le profil",
+    "EditProfile":{
+        "title": "Modifier votre profil",
+        "NB": "NB: Informations sur l'entreprise ou l'utilisateur",
+        "firstSection":{
+            "title": "Informations normales",
+            "fields": {
+                "gender": {
+                    "0": "Sélectionnez le sexe",
+                    "1": "Mâle",
+                    "2": "Femelle",
+                    "3": "Aucun"
+                },
+                "0": "Nom",
+                "1": "Âge",
+                "2": "La description"
+            },
+            "error": "L'âge doit être supérieur à 18 ans"
+        },
+        "secondSection":{
+            "title": "Photos",
+            "0": "Choisissez une photo de couverture",
+            "1": "Choisissez une photo de profil",
+            "error5": "La taille du fichier doit être inférieure à 5 Mo",
+            "error3": "La taille du fichier doit être inférieure à 3 Mo"
+        },
+        "thirdSection":{
+            "title": "Emplacement",
+            "0": "Ajouter un emplacement à partir de la carte",
+            "1": "Latitude",
+            "2": "Longitude",
+            "3": "Adresse de la carte"
+        },
+        "forthSection":{
+            "title": "Adresse détaillée",
+            "fields":{
+                "0": "Rechercher un pays",
+                "00": "Aucun pays trouvé ...",
+                "1": "Numéro de contact",
+                "2": "rue",
+                "3": "Ville",
+                "4": "Etat",
+                "5": "Code postal",
+                "6": "Pays"
+            },
+            "error": "Numéro de contact Doit être numérique uniquement"
+        },
+        "button": "Mettre à jour le profil",
+        "error": "Veuillez remplir tous les champs correctement"
+    }
+}

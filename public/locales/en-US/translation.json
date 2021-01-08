@@ -1,0 +1,123 @@
+{
+    "appStartNavigation": {
+        "00": "Search services",
+        "0": "Become a Seller",
+        "1": "My Dashboard",
+        "2": "Logout",
+        "3": "Home",
+        "4": "Login",
+        "5": "Join",
+        "6": "English",
+        "7": "French"
+    },
+    "sideDrawer": {
+        "0": "Home",
+        "1": "Become a Seller",
+        "2": "My Dashboard",
+        "3": "Login",
+        "4": "Join",
+        "5": "Logout",
+        "6": "Contact",
+        "7": "About"
+    },
+    "appStartToolbar": {
+        "drawer": "Browse Categories",
+        "0": "Tv",
+        "1": "Radio",
+        "2": "Internet",
+        "3": "Sports",
+        "4": "Cinema",
+        "5": "Press",
+        "6": "Music",
+        "7": "Poster",
+        "8": "Event",
+        "9": "Styles"
+    },
+    "homeSlide": {
+        "00": "Search services",
+        "000": "Buy or Sell",
+        "0": "The Perfect Ads",
+        "1": "Popular Services",
+        "2": "Newspaper",
+        "3": "Radio",
+        "4": "Website",
+        "5": "Sports",
+        "6": "Poster",
+        "7": "Music",
+        "8": "Social Media"
+    },
+    "info": {
+        "0": "This website is under developing.."
+    },
+    "middle": {
+        "name": "Privileges",
+        "privilegesList": {
+            "0": "Includes advertising media like TV, RADIO, SPORT, PRESS, CINEMA, MUSIC, POSTER, EVENT and more.",
+            "1": "By this everyone can buy & sell their products.",
+            "2": "Can search products with current location or maximum area location 250km.",
+            "3": "Always includes latest and featured advertising products.",
+            "4": "It spreads the awareness about products and services, broadcasting the benefits of specific products and services, via advertising."
+        }
+    },
+    "imageSlider": {
+        "name": "Popular Services",
+        "list": {
+            "0": "TV",
+            "1": "NEWSPAPER",
+            "2": "RADIO",
+            "3": "INTERNET",
+            "4": "WEBSITE",
+            "5": "SOCIAL MEDIA",
+            "6": "POSTER",
+            "7": "MUSIC"
+        }
+    },
+    "servicesDetails": {
+        "name": "Explore Others Services",
+        "list": {
+            "0": "TV",
+            "1": "RADIO",
+            "2": "INTERNET",
+            "3": "SPORTS",
+            "4": "NEWSPAPER",
+            "5": "CINEMA",
+            "6": "MUSIC",
+            "7": "POSTER",
+            "8": "SOCIAL MEDIA",
+            "9": "BANNER"
+        }
+    },
+    "footer": {
+        "firstSection": {
+            "0": "Help & Support",
+            "1": "Our Address",
+            "2": "Suite 2200, West,",
+            "3": "Montreal, Quebec, H3B 4W8,",
+            "4": "1250 René Lévesque Boulevard,"
+        },
+        "secondSection": {
+            "0": "About",
+            "1": "About us",
+            "2": "How it Works",
+            "3": "Security",
+            "4": "Sitemap",
+            "5": "Quotes",
+            "6": "News"
+        },
+        "thirdSection": {
+            "0": "Terms",
+            "1": "Privacy Policy",
+            "2": "Terms and Conditions",
+            "3": "Copyright Policy",
+            "4": "Code of Conduct",
+            "5": "Fees and Charges"
+        },
+        "forthSection": {
+            "0": "Connect with",
+            "1": "Our Official Email"
+        }
+    },
+    "NormalFooter":{
+        "0": "Feel free to contact with the email"
+    }
+}

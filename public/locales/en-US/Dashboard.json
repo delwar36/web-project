@@ -1,0 +1,20 @@
+{
+    "ProfiledashboardNavigationItems":{
+        "0": "Search services",
+        "1": "My Dashboard",
+        "2": "Logout"
+    },
+    "DashboardNavigation":{
+        "0": "Home",
+        "1": "My Dashboard",
+        "2": "My Profile",
+        "3": "My Ads",
+        "4": "Orders",
+        "5": "Inbox",
+        "6": "Sold",
+        "7": "Customers",
+        "8": "Earnings",
+        "9": "Invoices",
+        "10": "Feedbacks"
+    }
+}

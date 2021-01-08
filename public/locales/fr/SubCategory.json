@@ -1,0 +1,64 @@
+{
+    "title": "Un seul endroit des millions d'utilisateurs",
+    "tv": {
+        "name": "la télé",
+        "0":"Généraliste",
+        "1":"Nouvelles",
+        "2":"Des sports",
+        "3":"La gastronomie",
+        "4":"Humour",
+        "5":"Adulte"
+    },
+    "radio":{
+        "name": "RADIO",
+        "0": "Généraliste",
+        "1": "Nouvelles",
+        "2": "Des sports"
+    },
+    "internet": {
+        "name": "L'INTERNET",
+        "0": "la toile",
+        "1": "Des médias sociaux",
+        "2": "Application mobile",
+        "3": "Envoi postal",
+        "4": "Objets connectés"
+    },
+    "sports":{
+        "name": "DES SPORTS",
+        "0": "Équipe",
+        "1": "Joueuse"
+    },
+    "press": {
+        "name": "PRESSE",
+        "0": "Impression gratuite",
+        "1": "Impression payante",
+        "2": "vêtements",
+        "3": "Autocollant",
+        "4": "Papier",
+        "5": "Auteure"
+    },
+    "cinema":{
+        "name": "CINÉMA",
+        "0": "Chambre",
+        "1": "Théâtre",
+        "2": "Actrice"
+    },
+    "music": {
+        "name": "LA MUSIQUE",
+        "0": "Auteure",
+        "1": "Du son"
+    },
+    "poster":{
+        "name": "AFFICHE",
+        "0": "Extérieure",
+        "1": "Intérieure",
+        "2": "Immeuble",
+        "3": "Mobile",
+        "4": "Numérique",
+        "5": "Imprimé",
+        "6": "Sculpture"
+    },
+    "others":{
+        "0": "No category found"
+    }
+}

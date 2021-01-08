@@ -1,0 +1,128 @@
+.NavigationItems {
+    display: flex;
+    margin: 5px 0px;
+    font-weight: 400;
+    flex-flow: column;
+}
+
+.NavigationItems select {
+    outline: none;
+    border: 2px solid rgb(242, 242, 242);
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    font-size: 14px;
+    margin-top: 0px;
+    color: gray;
+    transition: .5s;
+    cursor: pointer;
+    padding: 0px 0px;
+}
+
+.NavigationItems select:focus {
+    background-color: white;
+    border: 2px solid rgb(160, 159, 221);
+    color: #111;
+    box-shadow: none;
+}
+
+.DownArrow {
+    background: url(../../../../assets/images/DownArrow.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    color: #1DBF73;
+}
+
+.dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.dropButton {
+    color: rgb(89, 99, 99);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px 5px;
+    height: 21px;
+}
+
+.dropButton i {
+    float: right;
+    margin-top: 2px;
+}
+
+.setRotate {
+    transition: transform 0.6s ease;
+    transform: rotate(180);
+}
+
+.Divider {
+    height: 1px;
+    background: rgb(233, 230, 230);
+    margin: 3% 0%;
+}
+
+.dropdownContent {
+    position: absolute;
+    background: white;
+    width: 100%;
+    z-index: 1;
+    border-radius: 3px;
+    border: 1px solid whitesmoke;
+    top: -10px;
+    height: 200px;
+    overflow-y: scroll;
+    box-shadow: 0 2px 3px 0 rgba(109, 108, 108, 0.2);
+}
+
+.DropMenuStyle {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 0% 70%;
+    align-items: center;
+}
+
+.DropMenuStyle i {
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.dropdownContent a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {
+    background: #1DBF73;
+    /* border-radius: 3px; */
+    color: white;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+    color: white;
+}
+
+.dropButton:hover {
+    background-color: whitesmoke;
+    color: rgb(107, 163, 228);
+    border-radius: 3px;
+    transition: 1s;
+}
+
+@media (max-width: 767px) {
+    .NavigationItems {
+        flex-flow: column;
+    }
+}

@@ -1,0 +1,97 @@
+.ServicesDetails {
+    background: white;
+    margin: 0;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.ServicesDetails a {
+    text-decoration: none;
+}
+
+.ServicesDetails h3 {
+    margin: 0px 10px;
+}
+
+.ServicesDetails h3, h5 {
+    text-align: center;
+}
+
+.ServicesDetailsMain {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    transition: .8s;
+    justify-content: center;
+}
+
+.ServicesDetailsMainItem {
+    display: flex;
+    width: 30%;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .8s;
+    padding: 20px 0px;
+}
+
+.ServicesDetailsMainItem big {
+    color: gray;
+}
+
+.ServicesDetailsMainItem img {
+    height: 40px;
+    width: 40px;
+}
+
+.HoverDiv {
+    width: 45%;
+    background: lightgray;
+    height: 2px;
+    transition: .8s;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.Divider {
+    margin: 5px 0px;
+}
+
+.ServicesDetailsMainItem:hover {
+    background: rgb(248, 248, 248);
+    border-radius: 5px;
+}
+
+.ServicesDetailsMainItem:hover>.HoverDiv {
+    width: 70%;
+    background: #1DBF73;
+}
+
+.ServicesDetailsMainItem:hover big {
+    color: rgb(80, 77, 77);
+}
+
+.LoadMoreButton {
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .ServicesDetailsMainItem {
+        width: 33%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 800px) {
+    .ServicesDetailsMainItem {
+        width: 20%;
+        padding: 20px 0px;
+        justify-content: center;
+    }
+    .ServicesDetailsMain {
+        flex-flow: row;
+        flex-wrap: wrap;
+        margin: 25px 30px;
+    }
+}

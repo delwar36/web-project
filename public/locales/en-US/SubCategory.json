@@ -1,0 +1,64 @@
+{
+    "title": "Single place millions of users",
+    "tv": {
+        "name": "TV",
+        "0":"Generalist",
+        "1":"News",
+        "2":"Sports",
+        "3":"Gastronomy",
+        "4":"Humor",
+        "5":"Adult"
+    },
+    "radio":{
+        "name": "RADIO",
+        "0": "Generalist",
+        "1": "News",
+        "2": "Sports"
+    },
+    "internet": {
+        "name": "INTERNET",
+        "0": "Web",
+        "1": "Social Media",
+        "2": "Mobile app",
+        "3": "Mailing",
+        "4": "Connected objects"
+    },
+    "sports":{
+        "name": "SPORTS",
+        "0": "Team",
+        "1": "Player"
+    },
+    "press": {
+        "name": "PRESS",
+        "0": "Free Print",
+        "1": "Paid Print",
+        "2": "Clothes",
+        "3": "Sticker",
+        "4": "Paper",
+        "5": "Author"
+    },
+    "cinema":{
+        "name": "CINEMA",
+        "0": "Room",
+        "1": "Theater",
+        "2": "Actor"
+    },
+    "music": {
+        "name": "MUSIC",
+        "0": "Author",
+        "1": "Sound"
+    },
+    "poster":{
+        "name": "POSTER",
+        "0": "Outdoor",
+        "1": "Indoor",
+        "2": "Immovable",
+        "3": "Mobile",
+        "4": "Digital",
+        "5": "Printed",
+        "6": "Sculpture"
+    },
+    "others":{
+        "0": "No category found"
+    }
+}

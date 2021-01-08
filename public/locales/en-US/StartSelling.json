@@ -1,0 +1,49 @@
+{
+    "above":{
+        "0": "Start Selling",
+        "1": "We will make earning easy",
+        "2": "Become a Seller",
+        "sections":{
+            "0" : {
+                "00" : "An Advertise is bought every",
+                "01" : "4 SECONDS"
+            },
+            "1": {
+                "10": "Transactions"
+            },
+            "2" : {
+                "20": "Price Range"
+            }
+        }
+    },
+    "middle":{
+        "0": "Join Our Growing Community"
+    },
+    "below":{
+        "name": "How It Works",
+        "options":{
+            "0":{
+                "00": "1. Create An Advertise",
+                "01": "Labore cupidatat excepteur quis eu irure duis deserunt veniam esse nostrud culpa qui magna fugiat."
+            },
+            "1":{
+                "10": "2. Deliver Great Work",
+                "11": "Labore cupidatat excepteur quis eu irure duis deserunt veniam esse nostrud culpa qui magna fugiat."
+            },
+            "2":{
+                "20": "3. Get Paid",
+                "21": "Labore cupidatat excepteur quis eu irure duis deserunt veniam esse nostrud culpa qui magna fugiat."
+            }
+        },
+        "stories": {
+            "name": "Buyer Stories",
+            "0":{
+                "00": "There is no way I could have produced anything without Umediad."
+            }
+        },
+        "others":{
+            "0": "Sign up and create your first Advertise today",
+            "1": "Get Started"            
+        }
+    }
+}

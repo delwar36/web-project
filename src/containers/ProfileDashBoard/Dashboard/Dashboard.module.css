@@ -1,0 +1,203 @@
+.Dashboard {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.Divider {
+    width: 90%;
+    text-align: left;
+    border-bottom: 2px solid whitesmoke;
+    margin: 15px 8%;
+    color: gray;
+    padding: 5px 0%;
+    display: flex;
+    flex-flow: row;
+}
+
+.DividerPart1 {
+    width: 95%;
+}
+
+.DividerPart2 {
+    width: 5%;
+}
+
+.Notification {
+    position: relative;
+}
+
+.NotificationStyle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: yellowgreen;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: -7px;
+    left: 7px;
+    font-weight: bold;
+}
+
+.DashboardBox {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 93%;
+    margin-left: 7%;
+    justify-content: flex-start;
+}
+
+.DashboardBoxItem {
+    width: 240px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    color: gray;
+    justify-content: center;
+}
+
+.DashboardBoxColumnItem1 {
+    width: 100%;
+    height: 78%;
+}
+
+.DashboardBoxColumnItem2 {
+    width: 100%;
+    height: 1px;
+    background-color: whitesmoke;
+}
+
+.DashboardBoxColumnItem3 {
+    width: 100%;
+    height: 22%;
+}
+
+.DashboardBoxFlex {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.DashboardBoxFlexItem1 {
+    width: 40%;
+    position: relative;
+}
+
+.DashboardBoxFlexItem2 {
+    width: 60%;
+    line-height: 30px;
+    margin-right: 5px;
+    display: flex;
+    flex-flow: column;
+}
+
+.DashboardBoxFlexItem2 {
+    text-align: right;
+}
+
+.DashboardBoxItemHeader {
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    border-radius: 3px;
+    left: 5px;
+    top: -30px;
+    box-shadow: 1px 1px 1px 0px rgba(141, 131, 131, 0.2);
+}
+
+.DashboardBoxItemHeader .Icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.DashboardBoxColumnItem3 li {
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.DashboardBoxItem:hover {
+    box-shadow: 0 2px 4px 0 rgba(109, 108, 108, 0.2);
+}
+
+.Chart {
+    margin: auto;
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.ChartItem {
+    width: 45%;
+    margin: 10px 10px;
+    border-radius: 5px;
+    background: white;
+    /* justify-content: center; */
+    flex-flow: row;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+.ChartItem:hover {
+    box-shadow: 0 2px 4px 0 rgba(109, 108, 108, 0.2);
+}
+
+@media (max-width: 660px) {
+    .DashboardBox {
+        width: 100%;
+        justify-content: center;
+    }
+    .ChartItem {
+        width: 100%;
+    }
+}
+
+@media(max-width: 800px) {
+    .DashboardBox {
+        margin-left: 0%;
+        justify-content: center;
+    }
+    .Chart {
+        width: 93%;
+        margin: auto;
+        cursor: none;
+    }
+    .ChartItem {
+        width: 92%;
+        height: 30%;
+        margin: 10px 0px;
+    }
+    .Divider {
+        width: 90%;
+        margin: 15px 5%;
+    }
+}
+
+@media (max-width: 560px) {
+    .DashboardBox {
+        /* width: 100%; */
+        margin-left: 0%;
+    }
+    .DashboardBoxItem {
+        width: 90%;
+        height: 140px;
+        margin: 20px 0px;
+    }
+    .ChartItem {
+        cursor: none;
+    }
+    .Divider {
+        width: 90%;
+        margin: 15px 5%;
+    }
+}

@@ -1,0 +1,76 @@
+.Middle {
+    display: flex;
+    flex-flow: column;
+    background: rgb(255, 255, 255);
+    padding: 10px 0px;
+}
+
+.Middle p {
+    margin: 15px 0px;
+}
+
+.Sub {
+    width: 92%;
+    margin: 15px;
+}
+
+.AppSlide {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.AppSlide video {
+    border-radius: 5px;
+    height: 90%;
+    width: 95%;
+}
+
+.Centered {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .Middle {
+        flex-flow: column;
+    }
+    .Sub {
+        width: 93%;
+        margin: 18px;
+    }
+    .AppSlide video {
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+    .Centered {
+        font-size: 50px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 800px) {
+    .Middle {
+        flex-flow: row;
+    }
+    .Sub {
+        width: 50%;
+        margin: 2%;
+    }
+    .AppSlide video {
+        border-radius: 5px;
+        height: 300px;
+        width: 100%;
+    }
+    .Centered {
+        font-size: 70px;
+        cursor: pointer;
+    }
+}

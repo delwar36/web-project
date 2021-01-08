@@ -1,0 +1,157 @@
+.Profile {
+    margin-top: 65px;
+}
+
+.UserProfile {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.CoverPhotoAndAll {
+    position: relative;
+    height: 610px;
+}
+
+.CoverPhotoAndAll img {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px -4px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 4px 0px rgba(49, 47, 47, 0.12);
+}
+
+.Main {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.CoverPhoto {
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+}
+
+.Main img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 2px 2px -4px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 2px 0px rgba(49, 47, 47, 0.12);
+}
+
+.Main h2 {
+    color: white;
+}
+
+.Main h4 {
+    color: inherit;
+}
+
+.Divider {
+    width: 100%;
+    background-color: rgb(223, 213, 213);
+    height: 1px;
+    margin: 20px 0px;
+}
+
+.DividerWithoutColor {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.AboutMe {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 0px;
+    width: 96%;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(109, 108, 108, 0.2);
+}
+
+.AboutMe h4 {
+    text-align: center;
+}
+
+.ProfileContent {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background: #eee;
+    padding: 10px 0px;
+    word-wrap: break-word;
+}
+
+.Label {
+    width: 30%;
+    font-weight: bold;
+    text-align: start;
+    align-items: center;
+}
+
+.LabelValue {
+    width: 50%;
+    text-align: start;
+}
+
+.Others {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Others button {
+    width: 96%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .CoverPhotoAndAll {
+        height: 630px;
+    }
+    .CoverPhoto {
+        height: 320px;
+    }
+    .Main {
+        margin-top: 30px;
+    }
+    .Main img {
+        height: 120px;
+        width: 120px;
+    }
+    .AboutMe {
+        width: 80%;
+    }
+    .Others {
+        margin-top: 5%;
+    }
+    .Others button {
+        width: 80%;
+    }
+}
+
+@media (min-width: 800px) {
+    .CoverPhotoAndAll {
+        height: 670px;
+    }
+    .UserProfile {
+        width: 80%;
+    }
+    .CoverPhoto {
+        height: 500px;
+    }
+    .Main {
+        margin-top: 30px;
+    }
+    .Main img {
+        height: 145px;
+        width: 145px;
+    }
+    .AboutMe {
+        width: 60%;
+    }
+    .Others {
+        margin-top: 2%;
+    }
+    .Others button {
+        width: 60%;
+    }
+}

@@ -1,0 +1,148 @@
+.NavigationItems {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.NavigationItems small {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.NavigationItems small:hover {
+    transition: .6s;
+    border-radius: 3px;
+    border: 1px solid #1DBF73;
+}
+
+.NavigationItems img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.dropdownForUser {
+    border-radius: 3px;
+    margin: 0px 5px;
+}
+
+.dropdownContentForUser {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    padding: 6px 0px;
+    width: 200px;
+    z-index: 6;
+    border-radius: 3px;
+    /* max-height: 200px; */
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.DropMenuStyle {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    align-items: center;
+}
+
+.dropdownForUser:hover .dropdownContentForUser {
+    display: block;
+    color: white;
+}
+
+.dropdownContentForUser a {
+    text-decoration: none;
+}
+
+.dropdownContentForUser a:hover {
+    color: white;
+}
+
+.DividerForDashboardToolbar {
+    margin: 0px 35px;
+}
+
+.Search input[type="search"] {
+    background: white;
+    height: 36px;
+    /* outline: none */
+    padding: 6px 15px;
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-right: none;
+    border-top-left-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 3px;
+}
+
+.Search button {
+    position: relative;
+    left: -12px;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    background: #1DBF73;
+    border-top-right-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.NavigationItems a {
+    text-decoration: none;
+}
+
+.NavigationItems select {
+    outline: none;
+    border: 2px solid rgb(242, 242, 242);
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+    width: 95px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    font-size: 14px;
+    margin-top: 0px;
+    color: gray;
+    transition: .5s;
+    cursor: pointer;
+    padding: 0px 0px;
+}
+
+.NavigationItems select:focus {
+    background-color: white;
+    border: 2px solid rgb(160, 159, 221);
+    color: #111;
+    box-shadow: none;
+}
+
+.Search input:focus {
+    border-left: 1px solid #1DBF73;
+    border-top: 1px solid #1DBF73;
+    border-bottom: 1px solid #1DBF73;
+}
+
+.DownArrow {
+    background: url(../../../../assets/images/DownArrow.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    color: #1DBF73;
+}
+
+@media only screen and (min-width: 767px) and (max-width:960px) {
+    .Search {
+        display: none;
+    }
+}

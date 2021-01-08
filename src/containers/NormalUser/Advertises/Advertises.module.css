@@ -1,0 +1,240 @@
+.Advertise {
+    margin-top: 90px
+}
+
+.BoxRow {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.BoxRow a {
+    text-decoration: none;
+    color: inherit;
+    all: unset;
+}
+
+.BoxRowElement {
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 5px 0px rgba(49, 47, 47, 0.12);
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.BoxRowElementItems {
+    padding: 15px 15px;
+}
+
+.BoxRowElementItems a {
+    text-decoration: none;
+}
+
+.BoxRowElementItems a:hover {
+    text-decoration: underline;
+    color: #4dabf7;
+}
+
+.BoxRowElement:hover {
+    box-shadow: 0 6px 25px 0 rgba(109, 108, 108, 0.2);
+}
+
+.CardHeader {
+    position: relative;
+}
+
+.CardBackgroundImg img {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
+    box-shadow: 0px 2px 2px -4px rgba(48, 46, 46, 0.2), 0px 1px 1px 0px rgba(44, 42, 42, 0.14), 0px 2px 2px 0px rgba(49, 47, 47, 0.12);
+}
+
+.ProvidedBy {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 5px;
+    background: rgba(57, 63, 145, 0.3);
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0px;
+    font-weight: bold;
+}
+
+.CardUserImg img {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    left: 20px;
+    bottom: -8px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px -4px rgba(48, 46, 46, 0.2), 0px 1px 1px 0px rgba(44, 42, 42, 0.14), 0px 2px 2px 0px rgba(49, 47, 47, 0.12);
+}
+
+.PriceAndRating i {
+    color: #4dabf7;
+}
+
+.PriceAndRating {
+    display: flex;
+    flex-flow: column;
+}
+
+.BoxRow .BoxRowElement .PriceAndRating span {
+    font-weight: bold;
+}
+
+.CompanyDescription {
+    text-align: start;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.PriceAndRating span {
+    text-align: start;
+}
+
+.LoadMore {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 5%;
+    border-radius: 5px;
+}
+
+.StartOrFilterProducts {
+    width: 90%;
+    margin: 3% 5%;
+    border-radius: 5px;
+}
+
+.StartOrFilterProducts h3 {
+    text-align: center;
+}
+
+.SearchAndFilter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.StartOrFilterProducts input, select {
+    outline: none;
+    border: 2px solid rgb(214, 210, 205);
+    background-color: white;
+    font: inherit;
+    padding: 6px 35px;
+    border-radius: 50px;
+    height: 42px;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    color: gray;
+}
+
+.StartOrFilterProducts input:focus {
+    background-color: white;
+    border: 2px solid #4dabf7;
+}
+
+.StartOrFilterProducts select:focus {
+    background-color: white;
+    border: 2px solid #4dabf7;
+    color: #111;
+}
+
+.StartOrFilterProducts span {
+    font-size: 20px;
+}
+
+.SearchIcon {
+    background: url(../../../assets/images/search.png);
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+}
+
+.FilterIcon {
+    background: url(../../../assets/images/filter.png);
+    background-repeat: no-repeat;
+    background-position: 7px 8px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .BoxRow {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .BoxRow .BoxRowElement {
+        width: 260px;
+        margin: 15px 10px;
+    }
+    .StartOrFilterProducts input, select {
+        width: 80%;
+        margin-right: 10px;
+    }
+    .SearchAndFilter {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .StartOrFilterProducts input, select {
+        height: 43px;
+        font-size: 18px;
+    }
+    .CardUserImg img {
+        height: 60px;
+        width: 60px;
+        bottom: -13px;
+    }
+}
+
+@media (min-width: 800px) {
+    .BoxRow {
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .BoxRow .BoxRowElement {
+        width: 280px;
+        margin: 15px 15px;
+    }
+    .BoxRowElementItems {
+        padding: 10px 20px;
+    }
+    .StartOrFilterProducts input, select {
+        width: 40%;
+    }
+    .SearchAndFilter {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .StartOrFilterProducts input, select {
+        height: 45px;
+        font-size: 20px;
+    }
+    .CardUserImg img {
+        height: 65px;
+        width: 65px;
+    }
+    .CardUserImg img {
+        height: 65px;
+        width: 65px;
+        bottom: -15px;
+    }
+}

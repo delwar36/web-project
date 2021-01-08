@@ -1,0 +1,81 @@
+{
+    "firstSection":{
+        "title": "About Me",
+        "names":{
+            "0": "Email",
+            "1": "Referral Code",
+            "2": "Is Verified",
+            "3": "Gender",
+            "4": "Age"
+        }
+    },
+    "secondSection":{
+        "title": "Company/User Address",
+        "names": {
+            "mobile": {
+                "0": "Name",
+                "1": "Description",
+                "2": "Location",
+                "3": "latitude",
+                "4": "longitude",
+                "5": "Telephone Number"
+            },
+            "0": "Street",
+            "1": "City",
+            "2": "State",
+            "3": "Zip code",
+            "4": "Country",
+            "5": "Telephone Number"
+        }
+    },
+    "button": "Edit Profile",
+    "EditProfile":{
+        "title": "Edit Your Profile",
+        "NB": "NB: Company or User Info",
+        "firstSection":{
+            "title": "Normal Information",
+            "fields": {
+                "gender": {
+                    "0": "Select Gender",
+                    "1": "Male",
+                    "2": "Female",
+                    "3": "None"
+                },
+                "0": "Name",
+                "1": "Age",
+                "2": "Description"
+            },
+            "error": "Age must be grater than 18"
+        },
+        "secondSection":{
+            "title": "Photos",
+            "0": "Choose a cover photo",
+            "1": "Choose a profile photo",
+            "error5": "File size must be smaller than 5 Mb",
+            "error3": "File size must be smaller than 3 Mb"
+        },
+        "thirdSection":{
+            "title": "Location",
+            "0": "Add location from map",
+            "1": "Latitude",
+            "2": "Longitude",
+            "3": "Map Address"
+        },
+        "forthSection":{
+            "title": "Detailed Address",
+            "fields":{
+                "0": "Search country",
+                "00": "No country found...",
+                "1": "Contact Number",
+                "2": "Street",
+                "3": "City",
+                "4": "State",
+                "5": "Zip Code",
+                "6": "Country"
+            },
+            "error": "Contact number Must be numeric only"
+        },
+        "button": "Update Profile",
+        "error": "Please fill up all fields correctly"
+    }
+}

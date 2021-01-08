@@ -1,0 +1,408 @@
+.SingleAdvertise {
+    margin-top: 80px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.SingleAdvertise span {
+    font-weight: 600;
+}
+
+.UserDescription {
+    width: 85%;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 10px 0px;
+}
+
+.UserDescription img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 5px 0px rgba(49, 47, 47, 0.12);
+}
+
+.UserDescription:hover {
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 5px 0px rgba(49, 47, 47, 0.12);
+}
+
+.AdvertiseDescription {
+    width: 96%;
+}
+
+.AdvertiseDescription a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.AdvertiseDescription a:hover {
+    color: #4dabf7;
+}
+
+.SingleAdvertise i {
+    color: #4dabf7;
+}
+
+.Divider {
+    height: 1px;
+    background: whitesmoke;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.DividerWithoutColor {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.Others {
+    padding: 20px 20px;
+}
+
+.Specification {
+    margin-top: 10px;
+    padding: 20px 20px;
+    background: white;
+}
+
+.SpecificationStyle {
+    margin: 0px 0px;
+}
+
+.Specification h4 {
+    margin: 20px 0px;
+}
+
+.ReviewsAndRating {
+    margin: 0px;
+}
+
+.ReviewsAndRating textarea {
+    width: 95%;
+}
+
+.Ratings {
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: column;
+}
+
+.Ratings .R1 {
+    width: 100%
+}
+
+.Ratings .R2 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Ratings i {
+    color: #4dabf7;
+    font-size: 25px;
+}
+
+.RatingsDescription {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 10px;
+}
+
+.RatingsDescription i {
+    font-size: 15px;
+}
+
+.RatingsDescription .RD1 {
+    width: 40%;
+}
+
+.RatingsDescription .RD2 {
+    width: 50%;
+}
+
+.RatingsDescription .RatingCount {
+    width: 100%;
+    background-color: rgb(247, 242, 242);
+}
+
+.RatingsDescription .RatingCountValue1 {
+    height: 10px;
+    width: 80%;
+    background-color: #4dabf7;
+}
+
+.RatingsDescription .RatingCountValue2 {
+    height: 10px;
+    width: 40%;
+    background-color: #4dabf7;
+}
+
+.Reviews {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.ReviewsDivider {
+    height: 1px;
+    background: whitesmoke;
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.Profile {
+    display: flex;
+    flex-flow: row;
+}
+
+.Reviews i {
+    color: #4dabf7;
+    font-size: 13px;
+}
+
+.Reviews .ReviewsDescription {
+    width: 100%;
+    margin: 5px;
+}
+
+.Profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ProfileNameAndDate {
+    display: flex;
+    flex-flow: column;
+    padding: 0px 8px;
+    margin-top: 5px;
+}
+
+.AdvertiseItems {
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.AdvertiseItems:hover {
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 5px 0px rgba(49, 47, 47, 0.12);
+}
+
+.PartLeft {
+    width: 95%;
+}
+
+.PartRight {
+    width: 95%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.AdvertiseImageFiles {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.AdvertiseImageFiles img {
+    border-radius: 5px;
+    height: 90px;
+    width: 100px;
+    margin: 0px 5px;
+    box-shadow: 0px 1px 1px 0px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 1px 1px 0px rgba(49, 47, 47, 0.12);
+    cursor: pointer;
+}
+
+.AdvertiseVideoFiles video {
+    border-radius: 5px;
+    width: 100%;
+    height: 220px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.AdvertiseImageFiles img:hover {
+    opacity: .8;
+}
+
+.HeadingText {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 10px;
+}
+
+.AdvertisePackages {
+    background: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.AdvertisePackages span {
+    font-weight: 600;
+}
+
+.AdvertisePackages:hover {
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 5px 0px rgba(49, 47, 47, 0.12);
+}
+
+.Content {
+    padding: 15px 15px;
+}
+
+.Header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 90%;
+}
+
+.PackageDescription {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.PackageDescription h5 {
+    color: goldenrod;
+    margin: 0px 10px;
+}
+
+.PackageDescription h6 {
+    margin: 0px 10px;
+    appearance: none;
+}
+
+.ReviewsAndRating h5 {
+    text-align: left;
+}
+
+.ReviewsAndRating textarea {
+    margin: 10px 0px;
+    height: 150px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    padding: 10px 10px;
+    border: 1px solid whitesmoke;
+}
+
+.ReviewsAndRating textarea:focus {
+    background-color: white;
+    border: 1px solid rgb(231, 227, 227);
+}
+
+.ReviewsAndRating button {
+    padding: 0px 30px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .SingleAdvertise {
+        flex-flow: column;
+        justify-content: center;
+    }
+    .UserDescription {
+        width: 90%;
+    }
+    .PartLeft {
+        width: 90%;
+    }
+    .PartRight {
+        width: 90%;
+    }
+    .AdvertiseDescription {
+        width: 95%;
+    }
+    .Ratings {
+        flex-flow: row;
+    }
+    .Reviews {
+        flex-flow: row;
+    }
+    .Reviews .ReviewsDescription {
+        width: 50%;
+    }
+    .ReviewsDivider {
+        display: none;
+    }
+    .ReviewsAndRating textarea {
+        width: 95%;
+    }
+}
+
+@media (min-width: 800px) {
+    .SingleAdvertise {
+        flex-flow: row;
+        justify-content: center;
+        align-items: unset;
+    }
+    .AdvertiseItems {
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    .UserDescription {
+        display: block;
+        width: 34%;
+        margin: 0px 20px;
+        max-height: 500px;
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+    .PartLeft {
+        width: 50%;
+    }
+    .PartRight {
+        width: 49%;
+        margin-left: 5px;
+    }
+    .SpecificationStyle {
+        margin: 0px 20px;
+    }
+    .AdvertiseDescription {
+        text-align: start;
+        width: 60%;
+        margin: 0px 0px 0px 20px;
+    }
+    .ReviewsAndRating {
+        margin: 20px;
+    }
+    .Ratings {
+        flex-flow: row;
+    }
+    .Ratings .R1 {
+        width: 35%
+    }
+    .Ratings .R2 {
+        width: 40%;
+    }
+    .RatingsDescription .RD1 {
+        width: 40%;
+    }
+    .RatingsDescription .RD2 {
+        width: 40%;
+    }
+    .Reviews {
+        flex-flow: row;
+    }
+    .Reviews .ReviewsDescription {
+        width: 30%;
+    }
+    .ReviewsDivider {
+        display: none;
+    }
+    .ReviewsAndRating textarea {
+        width: 50%;
+    }
+}

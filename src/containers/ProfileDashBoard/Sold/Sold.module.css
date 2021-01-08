@@ -1,0 +1,13 @@
+.Dashboard {
+    margin-top: 90px;
+    margin-bottom: 30%;
+    text-align: center;
+    justify-items: center;
+}
+
+.SoldItem {
+    height: 300px;
+    width: 200px;
+    background: #4dabf7;
+    border-radius: 10px;
+}

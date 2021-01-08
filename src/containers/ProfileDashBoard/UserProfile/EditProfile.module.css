@@ -1,0 +1,403 @@
+.Edit {
+    margin-top: 75px;
+}
+
+.Edit strong {
+    font-size: 12px;
+    color: gray;
+}
+
+.EditProfile {
+    border-radius: 5px;
+    background: white;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+.Header {
+    padding: 0px 0px;
+}
+
+.MobileOnly {
+    margin: 10px 0px;
+}
+
+.Header h4 {
+    text-align: center;
+}
+
+.Header li {
+    float: right;
+    font-style: italic;
+}
+
+.EditProfile h6 {
+    margin-bottom: 10px;
+    border-left: 3px solid goldenrod;
+    padding-left: 5px;
+}
+
+.InputElement {
+    color: #111;
+    font-size: 17px;
+    margin: 0px 5%;
+}
+
+.InputElement input {
+    outline: none;
+    background-color: rgb(250, 250, 250);
+    font: inherit;
+    border-radius: 3px;
+    width: 100%;
+    height: 43px;
+    border: none;
+    padding-left: 10px;
+    border-bottom: 2px solid rgb(250, 250, 250);
+    transition: .5s;
+}
+
+.InputElement input:focus {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(232, 242, 247);
+    border-bottom: 2px solid #8dbfe6;
+    box-shadow: none;
+}
+
+.Description textarea {
+    height: 100px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    background: rgb(250, 250, 250);
+    width: 93%;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgb(250, 250, 250);
+    margin: 20px 0px;
+    transition: .1s;
+}
+
+.Description textarea:focus {
+    box-shadow: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(232, 242, 247);
+    border-bottom: 2px solid #8dbfe6;
+}
+
+.Name {
+    display: flex;
+    flex-flow: column;
+}
+
+.NameItem {
+    width: 96%;
+}
+
+.NameItem select {
+    outline: none;
+    background-color: rgb(250, 250, 250);
+    border-radius: 3px;
+    height: 45px;
+    width: 104%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-top: 0px;
+    color: gray;
+    transition: .1s;
+    border: none;
+    border-bottom: 2px solid rgb(250, 250, 250);
+}
+
+.NameItem select:focus {
+    color: rgb(36, 34, 34);
+    box-shadow: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: rgb(232, 242, 247);
+    border-bottom: 2px solid #8dbfe6;
+}
+
+.DownArrow {
+    background: url(../../../assets/images/DownArrow.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+.DividerH {
+    margin: 0px 11px;
+}
+
+.DividerV {
+    margin: 20px 0px;
+}
+
+.Divider {
+    margin: 10px 0px;
+}
+
+.Invalid {
+    border: 1px solid #703B09;
+    background-color: #703B09;
+}
+
+.Location {
+    display: none
+}
+
+.LocationButton {
+    cursor: pointer;
+    font: inherit;
+    border-radius: 3px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.8s;
+    height: 40px;
+    box-shadow: 1px 1px 1px 0px rgba(109, 108, 108, 0.2);
+    color: white;
+    background: rgb(240, 205, 11);
+}
+
+.LocationButton:hover {
+    background: goldenrod;
+}
+
+.LocationButton span {
+    margin: auto;
+}
+
+.MobileOnlyLocation {
+    display: block;
+}
+
+.MobileOnlyLocation, .LocationButton {
+    width: 100%;
+}
+
+.MobileOnlyLocation img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(109, 108, 108, 0.2);
+}
+
+.MobileOnlyFlex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.MobileOnlyFlexItem {
+    width: 50%;
+}
+
+.Location p {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.UpdateButton {
+    text-align: center;
+}
+
+.UpdateButton button {
+    width: 100%;
+    height: 43px;
+}
+
+.File {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.FileColumn {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+.FileColumn img {
+    height: 60%;
+    width: 70%;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.MapResult {
+    display: none;
+    flex-flow: column;
+}
+
+.DividerFIleH {
+    margin: 0px 5px;
+}
+
+.DividerFIleV {
+    margin: 5px 0px;
+}
+
+.FileInput {
+    width: 100%;
+}
+
+.FileInput input[type="file"] {
+    display: none;
+}
+
+.FileInput label {
+    color: white;
+    transition: background 0.5s;
+    height: 43px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 0px rgba(109, 108, 108, 0.2);
+    background: #4dabf7;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FileInput label:hover {
+    cursor: pointer;
+    background: #2187da;
+}
+
+.FileInput span {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.ContactNumber {
+    display: flex;
+    flex-flow: row;
+}
+
+.ContactNumberItem1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    width: 29%;
+    padding: 11px 0px;
+    margin: auto;
+    border-radius: 3px;
+    color: gray;
+    height: 23px;
+    background: rgb(250, 250, 250);
+}
+
+.ContactNumberItem2 {
+    width: 70%;
+    margin-left: 5px;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .Location {
+        display: block;
+        grid-template-columns: 30% 25% 40%;
+    }
+    .Location, .LocationButton {
+        padding: 0px 5px;
+    }
+    .MobileOnly {
+        display: block;
+    }
+    .NameItem select {
+        width: 102%;
+    }
+    .Description textarea {
+        width: 94%;
+    }
+    .UpdateButton button {
+        width: 98%;
+    }
+    .MobileOnlyLocation {
+        display: none;
+    }
+    .MapResult {
+        display: block;
+        flex-flow: column;
+    }
+    .MapResult img {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px 0px rgba(109, 108, 108, 0.2);
+    }
+}
+
+@media (min-width: 800px) {
+    .Edit {
+        margin-left: 4%;
+    }
+    .EditProfile {
+        width: 80%;
+        margin: auto;
+    }
+    .Name {
+        flex-flow: row;
+    }
+    .NameItem {
+        width: 48%;
+    }
+    .MobileOnly {
+        display: none;
+    }
+    .Description textarea {
+        width: 97%;
+    }
+    .NameItem select {
+        width: 103%;
+    }
+    .Location {
+        display: block;
+        height: 50px;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 32% 32% 30%;
+    }
+    .Location span {
+        margin-top: 10px;
+    }
+    .File {
+        flex-flow: row;
+    }
+    .FileColumn {
+        flex-flow: column;
+    }
+    .MobileOnlyLocation {
+        display: none;
+    }
+    .MapResult {
+        display: block;
+        flex-flow: column;
+    }
+    .MapResult img {
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px 0px rgba(109, 108, 108, 0.2);
+    }
+}

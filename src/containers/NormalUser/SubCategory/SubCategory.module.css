@@ -1,0 +1,115 @@
+.SubCategory {
+    margin-top: 60px;
+    text-align: center;
+    background: rgb(252, 252, 252);
+}
+
+.Items {
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    margin: 10px 10px;
+}
+
+.ItemsLinks {
+    width: 97%;
+    flex-flow: column;
+    padding: 10px 10px;
+    height: 200px;
+    text-align: left;
+    display: none;
+}
+
+.ItemsLinks span {
+    color: rgb(99, 94, 94);
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.ItemsLinks a {
+    text-decoration: none;
+}
+
+.Card {
+    margin: 0px 5px;
+}
+
+.Card a {
+    text-decoration: none;
+}
+
+.Card:hover>a>p {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.ItemsLinks span:hover {
+    color: goldenrod;
+}
+
+.ItemsLinks a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.ItemsCard {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.Card {
+    display: flex;
+    flex-flow: column;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.Card img {
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 1px 1px 0px rgba(49, 47, 47, 0.12);
+}
+
+.Card img:hover {
+    opacity: .8;
+}
+
+.Card p {
+    margin-top: 10px;
+    text-align: left;
+    color: rgb(53, 53, 53);
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .Card img {
+        height: 150px;
+        width: 200px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    .Items {
+        margin: 10px 20px;
+        flex-flow: row;
+    }
+    .ItemsLinks {
+        width: 10%;
+        display: flex;
+    }
+    .ItemsCard {
+        width: 80%;
+    }
+    .Card {
+        padding: 10px 10px;
+    }
+    .Card img {
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+    }
+}

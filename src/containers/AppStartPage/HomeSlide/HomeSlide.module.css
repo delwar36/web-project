@@ -1,0 +1,318 @@
+.AppSlide {
+    /* width: 100%; */
+    position: relative;
+    height: 100vh;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.TransparentBackground {
+    box-sizing: border-box;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 100%);
+}
+
+.Description {
+    width: 90%;
+    margin-top: 20vh;
+    margin-left: 5vh;
+}
+.Description h1{
+    text-shadow: 1px 1px rgb(192, 188, 188);
+}
+.DividerForMobile {
+    display: block;
+    margin: 15px 0px;
+}
+
+.DividerForDesktop {
+    display: none;
+}
+
+.Search {
+    display: none;
+}
+
+.MobileSearch {
+    margin: 0px 5px;
+    display: block;
+    text-align: center;
+}
+
+.MobileFavoriteService {
+    display: flex;
+    flex-flow: row;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: 5vh;
+}
+
+.MobileFavoriteService p {
+    margin: 5px 5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid #1DBF73;
+    color: white;
+}
+
+.MobileFavoriteService h5 {
+    margin-top: 5px;
+}
+
+.MobileFavoriteService p:hover {
+    background-color: #1DBF73;
+    color: white;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.MobileSearch input[type="search"] {
+    background: white;
+    height: 49px;
+    padding: 6px 15px;
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-right: none;
+    border-top-left-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 3px;
+    width: 83%;
+}
+
+.MobileSearch button {
+    height: 50px;
+    position: relative;
+    left: -12px;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    background: #1DBF73;
+    border-top-right-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    width: 17%;
+}
+
+.MobileSearch input:focus {
+    border-left: 1px solid #1DBF73;
+    border-top: 1px solid #1DBF73;
+    border-bottom: 1px solid #1DBF73;
+}
+
+.Search input[type="search"] {
+    background: white;
+    height: 50px;
+    /* outline: none */
+    padding: 6px 15px;
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-right: none;
+    border-top-left-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 3px;
+    width: 80%;
+}
+
+.Search button {
+    height: 50px;
+    position: relative;
+    left: -12px;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    background: #1DBF73;
+    border-top-right-radius: 3px;
+    font-family: 'Lato', sans-serif;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    width: 17%;
+}
+
+.Search input:focus {
+    border-left: 1px solid #1DBF73;
+    border-top: 1px solid #1DBF73;
+    border-bottom: 1px solid #1DBF73;
+}
+
+.slider {
+    top: 0;
+}
+
+.slide1, .slide2, .slide3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide1 {
+    background: url(../../../assets/images/main_slider/slider-image1.png)no-repeat center;
+    background-size: cover;
+    animation: fade 8s infinite;
+    -webkit-animation: fade 8s infinite;
+}
+
+.slide2 {
+    background: url(../../../assets/images/main_slider/slider-image2.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade2 8s infinite;
+    -webkit-animation: fade2 8s infinite;
+}
+
+.slide3 {
+    background: url(../../../assets/images/main_slider/slider-image3.png)no-repeat center;
+    background-size: cover;
+    animation: fade3 8s infinite;
+    -webkit-animation: fade3 8s infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 1
+    }
+    66.666% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .slide1, .slide2, .slide3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .AppSlide {
+        margin-bottom: 5%;
+    }
+    .Search {
+        display: block;
+        width: 90%;
+    }
+    .MobileSearch {
+        display: none;
+    }
+    .MobileFavoriteService {
+        display: none;
+    }
+    .FavoriteService {
+        margin-top: 10px;
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .FavoriteService h5 {
+        margin-top: 5px;
+    }
+    .FavoriteService p {
+        margin: 5px 5px;
+        padding: 3px 10px;
+        border-radius: 20px;
+        border: 1px solid #1DBF73;
+        color: white;
+    }
+    .FavoriteService p:hover {
+        background-color: #1DBF73;
+        color: white;
+        cursor: pointer;
+        transition: .7s;
+    }
+}
+
+@media (min-width: 800px) {
+    .AppSlide {
+        height: 100vh;
+        margin-bottom: 2%;
+    }
+    h2 {
+        margin-top: 5px;
+    }
+    .Search {
+        display: block;
+        width: 70%;
+    }
+    .MobileSearch {
+        display: none;
+    }
+    .Description {
+        width: 70%;
+        margin-left: 10vh;
+    }
+    .slide1, .slide2, .slide3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .MobileFavoriteService {
+        display: none;
+    }
+    .FavoriteService {
+        margin-top: 10px;
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .FavoriteService h5 {
+        margin-top: 5px;
+    }
+    .FavoriteService p {
+        margin: 5px 5px;
+        padding: 3px 10px;
+        border-radius: 20px;
+        border: 1px solid #1DBF73;
+        color: white;
+    }
+    .FavoriteService p:hover {
+        background-color: #1DBF73;
+        color: white;
+        cursor: pointer;
+        transition: .7s;
+    }
+    .DividerForMobile {
+        display: none;
+    }
+    .DividerForDesktop {
+        display: block;
+        margin: 20px 0px;
+    }
+}

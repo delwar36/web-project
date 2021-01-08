@@ -1,0 +1,349 @@
+.StartSelling {
+    margin-top: 65px;
+    width: 100%;
+}
+
+.SellingMain {
+    margin: 0 auto
+}
+
+.HeaderImage {
+    height: 85vh;
+    position: relative;
+}
+
+.HeaderImage img {
+    width: 100%;
+    height: 85vh;
+}
+
+.Description {
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.Description button {
+    padding: 0px 30px;
+    margin: 30px 0px;
+}
+
+.FooterPart {
+    position: absolute;
+    bottom: 0vh;
+    background: rgba(141, 132, 132, 0.5);
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 25vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.FooterItem {
+    display: flex;
+    flex-flow: column;
+    margin: 2px 0px;
+}
+
+.JoinCommunity h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CommunityImage {
+    display: flex;
+    flex-flow: row;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Frame {
+    height: 240px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    margin: 15px 15px;
+    box-shadow: 0px 2px 2px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 2px 2px 0px rgba(49, 47, 47, 0.12);
+}
+
+.Frame h4 {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    color: white;
+}
+
+.zoomIn img {
+    height: 240px;
+    width: 230px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.zoomIn img:hover {
+    width: 170px;
+    height: 240px;
+}
+
+.HowItWorks {
+    margin-top: 4%;
+    padding: 1% 2%;
+    background: whitesmoke;
+}
+
+.HowItWorks h3 {
+    text-align: center;
+}
+
+.HowItWorksItems {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 2% 0%;
+}
+
+.HowItWorksItem {
+    margin-top: 10px;
+    display: flex;
+    padding: 0% 2%;
+    flex-flow: column;
+}
+
+.HowItWorksItems i {
+    font-size: 50px;
+    color: #1DBF73;
+}
+
+.HowItWorksItems p {
+    color: rgb(129, 122, 109);
+}
+
+.Divider {
+    margin: 2% 0%;
+}
+
+.BuyerStories {
+    margin: 15px 2%;
+    text-align: center;
+}
+
+.UserReviews {
+    text-align: center;
+}
+
+.UserReviewsItem {
+    width: 250px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 3px 1px -3px rgba(48, 46, 46, 0.2), 0px 2px 2px 0px rgba(44, 42, 42, 0.14), 0px 1px 5px 0px rgba(49, 47, 47, 0.12);
+}
+
+.UserReviewsItem:hover {
+    box-shadow: 0px 4px 8px 0px rgba(109, 108, 108, 0.2);
+}
+
+.Reviews {
+    height: 150px;
+    overflow: auto;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: rgb(122, 118, 118);
+    font-style: italic;
+}
+
+.UserReviewsItemImage {
+    position: relative;
+}
+
+.UserReviewsItemImage img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 1px -4px rgba(48, 46, 46, 0.2), 0px 1px 1px 0px rgba(44, 42, 42, 0.14), 0px 1px 3px 0px rgba(49, 47, 47, 0.12);
+}
+
+.LetsStart {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 0px;
+}
+
+.LetsStart h5 {
+    color: gray;
+}
+
+.LetsStart button {
+    width: 50%;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .FooterPart {
+        flex-flow: row;
+        height: 20vh;
+        justify-content: space-around;
+    }
+    .FooterItem {
+        margin: 5px 0px;
+    }
+    .FooterItem p {
+        margin-top: 5px;
+    }
+    .HeaderImage {
+        height: 90vh;
+    }
+    .HeaderImage img {
+        height: 90vh;
+    }
+    .Frame {
+        height: 280px;
+        width: 250px;
+        margin: 15px 10px;
+    }
+    .zoomIn img {
+        height: 280px;
+        width: 250px;
+    }
+    .zoomIn img:hover {
+        width: 290px;
+        height: 300px;
+    }
+    .BuyerStories h3 {
+        margin: 20px 0px;
+    }
+    .CommunityImage {
+        margin: 0px 30px;
+        justify-content: unset;
+    }
+    .HowItWorksItems {
+        flex-flow: column;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1025px) {
+    .FooterPart {
+        flex-flow: row;
+        height: 20vh;
+        justify-content: space-around;
+    }
+    .FooterItem {
+        margin: 10px 0px;
+    }
+    .FooterItem p {
+        margin-top: 10px;
+    }
+    .HeaderImage {
+        height: 90vh;
+    }
+    .HeaderImage img {
+        height: 90vh;
+    }
+    .Frame {
+        height: 280px;
+        width: 250px;
+        margin: 15px 10px;
+    }
+    .CommunityImage {
+        margin: 0px 40px;
+        justify-content: unset;
+    }
+    .BuyerStories h3 {
+        margin: 20px 0px;
+    }
+    .zoomIn img {
+        height: 280px;
+        width: 250px;
+    }
+    .zoomIn img:hover {
+        width: 290px;
+        height: 300px;
+    }
+    .HowItWorksItems {
+        flex-flow: row;
+    }
+}
+
+@media (min-width: 1025px) {
+    .FooterPart {
+        flex-flow: row;
+        height: 20vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .FooterItem {
+        margin: 10px 0px;
+    }
+    .FooterItem p {
+        margin-top: 10px;
+    }
+    .HeaderImage {
+        height: 85vh;
+    }
+    .HeaderImage img {
+        height: 85vh;
+    }
+    .Frame {
+        height: 280px;
+        width: 250px;
+        margin: 20px 15px;
+    }
+    .CommunityImage {
+        justify-content: unset;
+        margin: 0px 50px;
+    }
+    .zoomIn img {
+        height: 280px;
+        width: 250px;
+    }
+    .zoomIn img:hover {
+        width: 290px;
+        height: 300px;
+    }
+    .BuyerStories h3 {
+        margin: 25px 0px;
+    }
+    .HowItWorksItems {
+        flex-flow: row;
+    }
+    .LetsStart button {
+        width: 30%;
+    }
+    .UserReviewsItem {
+        width: 300px;
+        height: 340px;
+        margin-right: 10px;
+        margin-top: 45px;
+    }
+    .Reviews {
+        height: 200px;
+    }
+    .UserReviewsItem p {
+        padding: 0px 20px;
+    }
+    .UserReviewsItemImage img {
+        height: 90px;
+        width: 90px;
+    }
+}

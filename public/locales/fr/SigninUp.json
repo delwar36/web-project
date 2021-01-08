@@ -1,0 +1,32 @@
+{
+    "signin" : {
+        "name" : "Connectez-vous à UMEDIAD",
+        "fields": {
+            "0": "Email",
+            "1": "Mot de passe"
+        },
+        "0": "Se connecter",
+        "1": "Mot de passe oublié?",
+        "error": "Veuillez remplir tous les champs correctement et vérifier votre connexion"
+    },
+    "signup":{
+        "name": "Rejoignez UMEDIAD",
+        "fields": {
+            "0": "Email",
+            "01": "Fournissez un email valide",
+            "1": "Mot de passe",
+            "2": "Confirmez le mot de passe",
+            "21": "Le mot de passe ne correspond pas",
+            "3": "Longueur du mot de passe min = 8, max = 16, un (petit, majuscule, caractère spécial, nombre) requis",
+            "4": "Assurer le contrôle de sécurité",
+            "5": "Soumettre"
+        },
+        "error": "Veuillez remplir tous les champs correctement et vérifier votre connexion"
+    },
+    "common": {
+        "0": "Continuer avec Google",
+        "1": "Continuer avec Facebook",
+        "2": "Continuer avec Apple",
+        "3": "OU"
+    }
+}

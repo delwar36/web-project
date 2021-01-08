@@ -1,0 +1,117 @@
+.TermsPrivacy {
+    margin-top: 70px;
+    background: white;
+}
+
+.Main {
+    margin: auto;
+    /* width: 90%; */
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.Main h6, strong {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.SubHeader {
+    display: flex;
+    flex-flow: row;
+}
+
+.Divider1 {
+    margin: 23px 0px;
+}
+
+.Divider2 {
+    margin: 10px 0px;
+}
+
+.Divider3 {
+    margin: 10px 0px;
+}
+
+.AimsLayout {
+    margin-left: 40px;
+}
+
+.AimsLayout ul, li {
+    list-style: initial;
+}
+
+.AimsLayout span {
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.Link {
+    margin-left: 30px;
+}
+
+.MainSection h6 {
+    text-align: left;
+}
+
+.Italic {
+    font-style: italic;
+}
+
+.FloatDiv {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.TranslateSelect {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.Label {
+    width: 40%;
+    color: rgb(154, 80, 224);
+    margin: 7px 10px;
+}
+
+.TranslateSelect select {
+    border: 2px solid rgb(242, 242, 242);
+    outline: none;
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-top: 0px;
+    color: gray;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.TranslateSelect select:focus {
+    background-color: white;
+    border: 2px solid rgb(160, 159, 221);
+    color: #111;
+    box-shadow: none;
+}
+
+.DownArrow {
+    background: url(../../../../assets/images/DownArrow.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+@media (min-width: 800px) {
+    .Main {
+        padding: 10px 50px;
+    }
+}
