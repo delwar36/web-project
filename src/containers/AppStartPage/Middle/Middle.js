@@ -3,7 +3,7 @@ import {useTranslation} from 'react-i18next'
 import classes from './Middle.module.css';
 import { Slide } from 'react-reveal';
 import MiddleItem from './MiddleItem';
-import umediad from '../../../assets/videos/umediad.mp4';
+import umediad from '../../../assets/videos/video.mp4';
 const privilegesList = [
     {
         text: 'Includes advertising media like TV, RADIO, SPORT, PRESS, CINEMA, MUSIC, POSTER, EVENT and more.'
