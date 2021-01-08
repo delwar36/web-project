@@ -1,1 +1,0 @@
-# umediad(Universal-Media-Advertising)
